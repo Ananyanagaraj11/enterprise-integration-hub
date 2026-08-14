@@ -1,0 +1,16 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+__pycache__/
+.venv/
+venv/
+*.pyc
+.idea/
+.DS_Store
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+node_modules/

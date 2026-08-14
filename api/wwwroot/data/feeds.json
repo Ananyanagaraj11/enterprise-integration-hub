@@ -1,0 +1,182 @@
+[
+  {
+    "feedId": "F-1001",
+    "sourceSystem": "payments-core",
+    "region": NaN,
+    "channel": "wire",
+    "amount": 12840.5,
+    "status": "settled",
+    "eventTime": "2026-08-01T09:12:00Z"
+  },
+  {
+    "feedId": "F-1002",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 2210.0,
+    "status": "pending",
+    "eventTime": "2026-08-01T09:18:00Z"
+  },
+  {
+    "feedId": "F-1003",
+    "sourceSystem": "regulatory-in",
+    "region": NaN,
+    "channel": "file",
+    "amount": 880.25,
+    "status": "settled",
+    "eventTime": "2026-08-01T09:21:00Z"
+  },
+  {
+    "feedId": "F-1004",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 15440.0,
+    "status": "settled",
+    "eventTime": "2026-08-01T09:33:00Z"
+  },
+  {
+    "feedId": "F-1005",
+    "sourceSystem": "payments-core",
+    "region": NaN,
+    "channel": "wire",
+    "amount": 910.1,
+    "status": "failed",
+    "eventTime": "2026-08-01T09:40:00Z"
+  },
+  {
+    "feedId": "F-1006",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "file",
+    "amount": 3120.75,
+    "status": "settled",
+    "eventTime": "2026-08-01T10:02:00Z"
+  },
+  {
+    "feedId": "F-1007",
+    "sourceSystem": "crm-sync",
+    "region": NaN,
+    "channel": "api",
+    "amount": 640.0,
+    "status": "pending",
+    "eventTime": "2026-08-01T10:11:00Z"
+  },
+  {
+    "feedId": "F-1008",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "api",
+    "amount": 19880.4,
+    "status": "settled",
+    "eventTime": "2026-08-01T10:16:00Z"
+  },
+  {
+    "feedId": "F-1009",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 2755.0,
+    "status": "settled",
+    "eventTime": "2026-08-01T10:28:00Z"
+  },
+  {
+    "feedId": "F-1010",
+    "sourceSystem": "regulatory-in",
+    "region": NaN,
+    "channel": "file",
+    "amount": 1490.6,
+    "status": "failed",
+    "eventTime": "2026-08-01T10:44:00Z"
+  },
+  {
+    "feedId": "F-1011",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "api",
+    "amount": 510.0,
+    "status": "settled",
+    "eventTime": "2026-08-01T11:03:00Z"
+  },
+  {
+    "feedId": "F-1012",
+    "sourceSystem": "payments-core",
+    "region": NaN,
+    "channel": "wire",
+    "amount": 17620.9,
+    "status": "settled",
+    "eventTime": "2026-08-01T11:19:00Z"
+  },
+  {
+    "feedId": "F-1013",
+    "sourceSystem": "market-data",
+    "region": NaN,
+    "channel": "api",
+    "amount": 4320.0,
+    "status": "pending",
+    "eventTime": "2026-08-01T11:27:00Z"
+  },
+  {
+    "feedId": "F-1014",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 760.15,
+    "status": "settled",
+    "eventTime": "2026-08-01T11:41:00Z"
+  },
+  {
+    "feedId": "F-1015",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 6890.0,
+    "status": "settled",
+    "eventTime": "2026-08-01T12:05:00Z"
+  },
+  {
+    "feedId": "F-1016",
+    "sourceSystem": "crm-sync",
+    "region": NaN,
+    "channel": "api",
+    "amount": 330.0,
+    "status": "failed",
+    "eventTime": "2026-08-01T12:14:00Z"
+  },
+  {
+    "feedId": "F-1017",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "api",
+    "amount": 11210.8,
+    "status": "settled",
+    "eventTime": "2026-08-01T12:22:00Z"
+  },
+  {
+    "feedId": "F-1018",
+    "sourceSystem": "payments-core",
+    "region": NaN,
+    "channel": "wire",
+    "amount": 2540.0,
+    "status": "settled",
+    "eventTime": "2026-08-01T12:38:00Z"
+  },
+  {
+    "feedId": "F-1019",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "file",
+    "amount": 2055.4,
+    "status": "pending",
+    "eventTime": "2026-08-01T12:51:00Z"
+  },
+  {
+    "feedId": "F-1020",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 980.0,
+    "status": "settled",
+    "eventTime": "2026-08-01T13:07:00Z"
+  }
+]
