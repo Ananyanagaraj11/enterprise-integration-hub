@@ -3,61 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Enterprise Integration Hub</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <title>LOOM — Integration Fabric</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <p class="eyebrow">System · Process · Experience APIs</p>
-        <h1>Enterprise Integration Hub</h1>
-        <p class="lede">
-          JWT-secured JavaScript console over an API gateway, saga orchestration,
-          event bus / DLQ, Spark canonicalization, and webhook ingest.
-        </p>
+    <div class="grain"></div>
+    <header class="top">
+      <div class="brand">
+        <span class="mark">⌘</span>
+        <div>
+          <p class="eyebrow">Ananya Naga Raj · portfolio fabric</p>
+          <h1>LOOM</h1>
+        </div>
       </div>
-      <form id="loginForm" class="login">
-        <input id="user" value="ananya" />
-        <input id="pass" type="password" value="hub-demo" />
-        <button type="submit">Get JWT</button>
-      </form>
+      <p class="lede">
+        Partner threads enter as messy CSV, webhooks, and SFTP. The loom
+        canonicalizes them, routes by content, and weaves a single cloth
+        downstream systems can actually wear.
+      </p>
+      <div class="clock">
+        <span id="clockLabel">replay</span>
+        <strong id="clockTime">—</strong>
+      </div>
     </header>
-    <nav>
-      <button data-tab="overview" class="active">Overview</button>
-      <button data-tab="feeds">Feeds</button>
-      <button data-tab="sagas">Sagas</button>
-      <button data-tab="dlq">DLQ</button>
-      <button data-tab="health">Health</button>
-    </nav>
-    <p id="statusMsg"></p>
-    <section id="overview" class="tab"></section>
-    <section id="feeds" class="tab hidden">
-      <div class="toolbar">
-        <select id="statusFilter">
-          <option value="">All statuses</option>
-          <option>settled</option>
-          <option>pending</option>
-          <option>failed</option>
-          <option>retrying</option>
-        </select>
-        <button id="batchBtn" type="button">Run batch ingest</button>
-        <button id="drainBtn" type="button">Drain event bus</button>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Feed</th><th>Source</th><th>Partner</th><th>Region</th>
-              <th>Amount</th><th>Status</th><th>Time</th>
-            </tr>
-          </thead>
-          <tbody id="feedRows"></tbody>
-        </table>
-      </div>
+
+    <section class="stage">
+      <svg id="fabric" viewBox="0 0 1100 520" role="img" aria-label="Living integration fabric">
+        <defs>
+          <linearGradient id="gold" x1="0" x2="1">
+            <stop offset="0%" stop-color="#e8a87c" />
+            <stop offset="100%" stop-color="#f4d35e" />
+          </linearGradient>
+          <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="b" />
+            <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+          </filter>
+        </defs>
+        <path id="p1" class="thread" d="M 90 70 C 260 70, 320 220, 520 250" />
+        <path id="p2" class="thread" d="M 90 150 C 250 150, 340 230, 520 250" />
+        <path id="p3" class="thread" d="M 90 230 C 240 230, 360 245, 520 250" />
+        <path id="p4" class="thread" d="M 90 310 C 250 310, 360 270, 520 250" />
+        <path id="p5" class="thread" d="M 90 390 C 260 390, 340 280, 520 250" />
+        <path id="p6" class="thread" d="M 90 450 C 280 450, 380 300, 520 250" />
+        <path id="pGold" class="thread gold" d="M 520 250 C 640 180, 720 160, 900 120" />
+        <path id="pNorm" class="thread" d="M 520 250 C 650 250, 760 250, 900 250" />
+        <path id="pSnag" class="thread snag" d="M 520 250 C 640 360, 720 430, 900 430" />
+        <g id="nodes"></g>
+        <g id="beads"></g>
+      </svg>
+      <aside class="inspector" id="inspector">
+        <p class="eyebrow">message trace</p>
+        <h2 id="insTitle">Pull a thread</h2>
+        <ol id="insSteps" class="steps"></ol>
+        <pre id="insJson" class="json">Click a moving bead — or inject a live partner event.</pre>
+      </aside>
     </section>
-    <section id="sagas" class="tab hidden"></section>
-    <section id="dlq" class="tab hidden"></section>
-    <section id="health" class="tab hidden"></section>
-    <script src="/app.js"></script>
+
+    <section class="console">
+      <div class="inject">
+        <h3>Pull a partner thread</h3>
+        <p>Watch content-based routing: failures snag in the DLQ, high-value payments take the gold warp.</p>
+        <div class="row">
+          <select id="src">
+            <option>payments-core</option>
+            <option>regulatory-in</option>
+            <option>market-data</option>
+            <option>crm-sync</option>
+            <option>ledger-erp</option>
+            <option>partner-sftp</option>
+          </select>
+          <select id="kind">
+            <option value="settled">settled · normal</option>
+            <option value="gold">settled · $50k+ gold lane</option>
+            <option value="failed">failed · snag to DLQ</option>
+          </select>
+          <button id="injectBtn" type="button">Inject event</button>
+        </div>
+        <p id="statusMsg" class="hint"></p>
+      </div>
+      <div class="kpis" id="kpis"></div>
+    </section>
+
+    <section class="patterns">
+      <article>
+        <h3>Canonical cloth</h3>
+        <p>Six partner dialects become <code>canonical.feed/1.0</code> before anything downstream is allowed to touch them.</p>
+      </article>
+      <article>
+        <h3>Content-based router</h3>
+        <p>Failed threads drop into the snag basket. Notional ≥ $50,000 rides the gold warp to a priority topic.</p>
+      </article>
+      <article>
+        <h3>Saga + compensation</h3>
+        <p>Validate → canonicalize → route → persist → notify. A negative amount tears the stitch back out.</p>
+      </article>
+      <article>
+        <h3>Outbox / inbox / DLQ</h3>
+        <p>At-least-once delivery with idempotent event ids. Poison messages don’t block the loom.</p>
+      </article>
+    </section>
+
+    <section class="table-wrap">
+      <div class="table-head">
+        <h3>Woven ledger</h3>
+        <input id="q" placeholder="search feed, partner, region…" />
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Feed</th><th>Source</th><th>Partner</th><th>Region</th>
+            <th>Channel</th><th>Amount</th><th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="feedRows"></tbody>
+      </table>
+    </section>
+
+    <footer>
+      <a href="https://github.com/Ananyanagaraj11/enterprise-integration-hub">GitHub</a>
+      · API-led System / Process / Experience · Spark canonicalizer · C# / .NET ingest
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>

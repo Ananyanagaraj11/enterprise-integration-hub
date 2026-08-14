@@ -21,6 +21,21 @@
     "EU": 8377015.81,
     "LATAM": 8286398.14
   },
+  "byChannel": {
+    "webhook": 143,
+    "sftp": 142,
+    "ach": 141,
+    "file": 136,
+    "wire": 119,
+    "api": 119
+  },
+  "byPartner": {
+    "orbit-pay": 185,
+    "nimbus-kyc": 168,
+    "summit-fx": 165,
+    "helix-clearing": 143,
+    "northstar-bank": 139
+  },
   "quality": {
     "ok": 800
   },

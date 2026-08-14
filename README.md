@@ -1,14 +1,16 @@
-# Enterprise Integration Hub
+# LOOM — Enterprise Integration Hub
 
-**Flagship portfolio platform** for integration / backend interviews.
+**A living fabric for partner feeds** — not another admin table.
+
+Partner threads (CSV, webhooks, SFTP) are woven into `canonical.feed/1.0`, then routed: failures snag in the DLQ, high-value payments take the gold warp.
+
+**Live demo:** [https://enterprise-integration-hub.vercel.app](https://enterprise-integration-hub.vercel.app)
 
 [![CI](https://github.com/Ananyanagaraj11/enterprise-integration-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/Ananyanagaraj11/enterprise-integration-hub/actions)
 
-It is **not** Honeywell or Metasystems source code. It **is** a large, runnable system that implements the concepts companies keep putting in 2026 JDs: API-led connectivity, JWT, gateways, events, DLQ, sagas, Spark, Docker, Kubernetes, CI, and a JavaScript console.
-
 [Architecture](docs/ARCHITECTURE.md) · [JD skill map](docs/JD-SKILL-MAP.md) · [Interview script](docs/INTERVIEW.md)
 
-**Live demo:** [https://enterprise-integration-hub.vercel.app](https://enterprise-integration-hub.vercel.app)
+Open the demo and click **Inject event**. You will see content-based routing happen on the loom: gold lane vs snag basket. Click any moving bead for a message trace.
 
 ```mermaid
 flowchart LR

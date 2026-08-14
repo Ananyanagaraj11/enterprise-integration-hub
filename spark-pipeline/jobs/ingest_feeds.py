@@ -34,6 +34,8 @@ def run_pandas() -> dict:
         "byStatus": df["status"].value_counts().to_dict(),
         "bySource": df["source_system"].value_counts().to_dict(),
         "amountByRegion": {k: round(v, 2) for k, v in df.groupby("region")["amount"].sum().to_dict().items()},
+        "byChannel": df["channel"].value_counts().to_dict(),
+        "byPartner": df["partner"].value_counts().to_dict() if "partner" in df.columns else {},
         "quality": df["quality_flag"].value_counts().to_dict(),
         "engine": "pandas",
         "schema": "canonical.feed/1.0",
@@ -59,11 +61,13 @@ def flatten(canonical: dict) -> dict:
     return {
         "feedId": canonical["feedId"],
         "sourceSystem": canonical["source"]["system"],
+        "partner": canonical["source"]["partner"],
         "region": canonical["geo"]["region"],
         "channel": canonical["source"]["channel"],
         "amount": canonical["money"]["amount"],
         "status": canonical["lifecycle"]["status"],
         "eventTime": canonical["trace"]["eventTime"],
+        "correlationId": canonical["trace"]["correlationId"],
     }
 
 
