@@ -2,6 +2,8 @@
 
 **Flagship portfolio platform** for integration / backend interviews.
 
+[![CI](https://github.com/Ananyanagaraj11/enterprise-integration-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/Ananyanagaraj11/enterprise-integration-hub/actions)
+
 It is **not** Honeywell or Metasystems source code. It **is** a large, runnable system that implements the concepts companies keep putting in 2026 JDs: API-led connectivity, JWT, gateways, events, DLQ, sagas, Spark, Docker, Kubernetes, CI, and a JavaScript console.
 
 [Architecture](docs/ARCHITECTURE.md) · [JD skill map](docs/JD-SKILL-MAP.md) · [Interview script](docs/INTERVIEW.md)
