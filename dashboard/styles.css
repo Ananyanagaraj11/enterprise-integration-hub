@@ -65,15 +65,14 @@ h1 { font-size: 56px; letter-spacing: -0.04em; line-height: 0.9; }
 .steps { padding-left: 18px; color: var(--mute); }
 .steps li { margin: 8px 0; }
 .steps li.on { color: var(--gold); }
-.json {
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 14px 0 18px; }
+.fact {
   background: #100c0a;
-  padding: 12px;
-  border-radius: 12px;
-  overflow: auto;
-  font-size: 12px;
-  color: #ecd9c6;
-  max-height: 220px;
+  border-radius: 14px;
+  padding: 10px 12px;
 }
+.fact span { display: block; color: var(--mute); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
+.fact strong { font-size: 14px; font-weight: 600; }
 .console {
   margin-top: 22px;
   display: grid;

@@ -103,24 +103,28 @@ function spawnBead(feed, fromIndex) {
 }
 
 function inspect(feed) {
+  const lane =
+    feed.status === "failed"
+      ? "DLQ snag"
+      : Number(feed.amount) >= 50000
+        ? "Gold warp"
+        : "Canonical cloth";
   document.getElementById("insTitle").textContent = feed.feedId;
-  document.getElementById("insSteps").innerHTML = journey(feed)
-    .map((s, i) => `<li class="on">${i + 1}. ${s}</li>`)
+  document.getElementById("insFacts").innerHTML = [
+    ["Partner", feed.partner || "—"],
+    ["System", feed.sourceSystem],
+    ["Channel", feed.channel],
+    ["Region", feed.region],
+    ["Amount", money(feed.amount)],
+    ["Status", feed.status],
+    ["Route", lane],
+    ["When", (feed.eventTime || "").replace("T", " ").replace("Z", "")],
+  ]
+    .map(([k, v]) => `<div class="fact"><span>${k}</span><strong>${v}</strong></div>`)
     .join("");
-  document.getElementById("insJson").textContent = JSON.stringify(
-    {
-      schema: "canonical.feed/1.0",
-      feedId: feed.feedId,
-      source: { system: feed.sourceSystem, partner: feed.partner, channel: feed.channel },
-      geo: { region: feed.region },
-      money: { amount: feed.amount },
-      lifecycle: { status: feed.status },
-      trace: { correlationId: feed.correlationId, eventTime: feed.eventTime },
-      routedTo: routeOf(feed),
-    },
-    null,
-    2
-  );
+  document.getElementById("insSteps").innerHTML = journey(feed)
+    .map((s, i) => `<li class="on">${s}</li>`)
+    .join("");
 }
 
 function renderKpis() {

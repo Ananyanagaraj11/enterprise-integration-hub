@@ -57,8 +57,10 @@
       <aside class="inspector" id="inspector">
         <p class="eyebrow">message trace</p>
         <h2 id="insTitle">Pull a thread</h2>
+        <div class="facts" id="insFacts">
+          <p class="hint">Click a moving bead — or inject a live partner event.</p>
+        </div>
         <ol id="insSteps" class="steps"></ol>
-        <pre id="insJson" class="json">Click a moving bead — or inject a live partner event.</pre>
       </aside>
     </section>
 
@@ -90,7 +92,7 @@
     <section class="patterns">
       <article>
         <h3>Canonical cloth</h3>
-        <p>Six partner dialects become <code>canonical.feed/1.0</code> before anything downstream is allowed to touch them.</p>
+        <p>Six partner dialects become one shared feed contract before anything downstream is allowed to touch them.</p>
       </article>
       <article>
         <h3>Content-based router</h3>
