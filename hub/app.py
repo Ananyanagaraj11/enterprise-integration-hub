@@ -16,8 +16,10 @@ from hub.canonical import to_canonical
 from hub.db import DATA_DIR, ROOT, connect, init_db
 from hub.sagas import start_saga
 from hub.security import USERS, idempotency_lookup, idempotency_store, issue_token, limiter, require_auth
+from hub.seed import load_canonical_csv, seed_if_empty
 
 init_db()
+seed_if_empty()
 app = FastAPI(
     title="Enterprise Integration Hub",
     version=__version__,
@@ -119,43 +121,9 @@ def system_ingest(
 
 @app.post("/process/v1/feeds/batch")
 def process_batch(principal: dict = Depends(require_auth)):
-    csv_path = ROOT / "spark-pipeline" / "data" / "sample_feeds.csv"
-    ingested = 0
-    failed = 0
-    conn = connect()
-    with csv_path.open(encoding="utf-8") as handle:
-        for row in csv.DictReader(handle):
-            try:
-                canonical = to_canonical(row)
-                conn.execute(
-                    """
-                    INSERT OR REPLACE INTO feeds(
-                        feed_id, source_system, partner, region, channel, amount, currency, status,
-                        event_time, correlation_id, canonical_json
-                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
-                    """,
-                    (
-                        canonical["feedId"],
-                        canonical["source"]["system"],
-                        canonical["source"]["partner"],
-                        canonical["geo"]["region"],
-                        canonical["source"]["channel"],
-                        canonical["money"]["amount"],
-                        canonical["money"]["currency"],
-                        canonical["lifecycle"]["status"],
-                        canonical["trace"]["eventTime"],
-                        canonical["trace"]["correlationId"],
-                        json.dumps(canonical),
-                    ),
-                )
-                ingested += 1
-            except Exception:
-                failed += 1
-    conn.commit()
-    conn.close()
-    bus.publish("feeds.ingested", {"batch": True, "ingested": ingested, "failed": failed}, key="batch")
-    _audit(principal["sub"], "process.batch", f"{ingested}/{failed}")
-    return {"ingested": ingested, "failed": failed, "pattern": "canonical-load + single batch event"}
+    result = load_canonical_csv()
+    _audit(principal["sub"], "process.batch", f"{result['ingested']}/{result['failed']}")
+    return result
 
 
 @app.post("/process/v1/webhooks")

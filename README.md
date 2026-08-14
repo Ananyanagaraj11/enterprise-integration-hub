@@ -8,6 +8,8 @@ It is **not** Honeywell or Metasystems source code. It **is** a large, runnable 
 
 [Architecture](docs/ARCHITECTURE.md) · [JD skill map](docs/JD-SKILL-MAP.md) · [Interview script](docs/INTERVIEW.md)
 
+**Live demo:** [https://enterprise-integration-hub.vercel.app](https://enterprise-integration-hub.vercel.app)
+
 ```mermaid
 flowchart LR
   JS[JavaScript dashboard]

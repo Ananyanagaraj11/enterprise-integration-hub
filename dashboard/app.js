@@ -1,5 +1,18 @@
 let token = "";
+let staticMode = false;
 const statusMsg = document.getElementById("statusMsg");
+
+function row(f) {
+  return {
+    feed_id: f.feed_id || f.feedId,
+    source_system: f.source_system || f.sourceSystem,
+    partner: f.partner || "",
+    region: f.region,
+    amount: f.amount,
+    status: f.status,
+    event_time: f.event_time || f.eventTime || "",
+  };
+}
 
 async function api(path, options = {}) {
   const headers = { "Content-Type": "application/json", ...(options.headers || {}) };
@@ -16,14 +29,7 @@ function money(v) {
 
 document.getElementById("loginForm").addEventListener("submit", async (e) => {
   e.preventDefault();
-  const body = {
-    username: document.getElementById("user").value,
-    password: document.getElementById("pass").value,
-  };
-  const out = await api("/auth/login", { method: "POST", body: JSON.stringify(body) });
-  token = out.access_token;
-  statusMsg.textContent = `JWT issued for ${out.role}`;
-  await refresh();
+  await login();
 });
 
 document.querySelectorAll("nav button").forEach((btn) => {
@@ -54,7 +60,9 @@ function renderOverview(summary) {
 }
 
 function renderFeeds(feeds) {
-  document.getElementById("feedRows").innerHTML = feeds.map((f) => `
+  const status = document.getElementById("statusFilter").value;
+  const rows = feeds.map(row).filter((f) => !status || f.status === status);
+  document.getElementById("feedRows").innerHTML = rows.map((f) => `
     <tr>
       <td>${f.feed_id}</td>
       <td>${f.source_system}</td>
@@ -64,6 +72,7 @@ function renderFeeds(feeds) {
       <td><span class="pill ${f.status}">${f.status}</span></td>
       <td>${(f.event_time || "").replace("T", " ").replace("Z", "")}</td>
     </tr>`).join("");
+  return rows.length;
 }
 
 function renderList(id, rows, pick) {
@@ -72,7 +81,19 @@ function renderList(id, rows, pick) {
   }</tbody></table></div>`;
 }
 
+let staticFeeds = [];
+let staticSummary = {};
+
 async function refresh() {
+  if (staticMode) {
+    const n = renderFeeds(staticFeeds);
+    renderOverview(staticSummary);
+    renderList("sagas", [], () => "");
+    renderList("dlq", [], () => "");
+    document.getElementById("health").innerHTML = `<pre>${JSON.stringify({ status: "ok", mode: "static-live-demo", feeds: staticSummary.feedCount }, null, 2)}</pre>`;
+    statusMsg.textContent = `${n} live demo rows`;
+    return;
+  }
   if (!token) {
     statusMsg.textContent = "Login to load secured Experience APIs.";
     return;
@@ -92,14 +113,46 @@ async function refresh() {
   statusMsg.textContent = `${feeds.length} experience-layer rows`;
 }
 
+async function login() {
+  const body = {
+    username: document.getElementById("user").value,
+    password: document.getElementById("pass").value,
+  };
+  const out = await api("/auth/login", { method: "POST", body: JSON.stringify(body) });
+  token = out.access_token;
+  statusMsg.textContent = `JWT issued for ${out.role}`;
+  await refresh();
+}
+
 document.getElementById("batchBtn").addEventListener("click", async () => {
+  if (staticMode) return refresh();
   statusMsg.textContent = "Batch ingest running…";
   const out = await api("/process/v1/feeds/batch", { method: "POST" });
   statusMsg.textContent = `Batch complete: ${out.ingested} ok / ${out.failed} failed`;
   await refresh();
 });
 document.getElementById("drainBtn").addEventListener("click", async () => {
+  if (staticMode) return refresh();
   await api("/process/v1/events/drain", { method: "POST" });
   await refresh();
 });
 document.getElementById("statusFilter").addEventListener("change", refresh);
+
+async function boot() {
+  try {
+    const health = await fetch("/health");
+    if (health.ok) {
+      await login();
+      return;
+    }
+  } catch (_err) {
+    /* fall through to static demo */
+  }
+  staticMode = true;
+  staticFeeds = await fetch("data/feeds.json").then((r) => r.json());
+  staticSummary = await fetch("data/summary.json").then((r) => r.json());
+  statusMsg.textContent = "Live demo (static)";
+  await refresh();
+}
+
+boot();
