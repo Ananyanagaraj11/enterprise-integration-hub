@@ -14,3 +14,6 @@ metastore_db/
 derby.log
 *.log
 node_modules/
+data/*.sqlite
+data/bus/
+.pytest_cache/

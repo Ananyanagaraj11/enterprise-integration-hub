@@ -1,182 +1,7202 @@
 [
   {
     "feedId": "F-1001",
-    "sourceSystem": "payments-core",
-    "region": NaN,
-    "channel": "wire",
-    "amount": 12840.5,
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 23395.62,
     "status": "settled",
-    "eventTime": "2026-08-01T09:12:00Z"
+    "eventTime": "2026-07-01T00:07:00Z"
   },
   {
     "feedId": "F-1002",
     "sourceSystem": "payments-core",
-    "region": "EU",
-    "channel": "ach",
-    "amount": 2210.0,
-    "status": "pending",
-    "eventTime": "2026-08-01T09:18:00Z"
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 35877.81,
+    "status": "settled",
+    "eventTime": "2026-07-01T00:14:00Z"
   },
   {
     "feedId": "F-1003",
     "sourceSystem": "regulatory-in",
-    "region": NaN,
-    "channel": "file",
-    "amount": 880.25,
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 16921.23,
     "status": "settled",
-    "eventTime": "2026-08-01T09:21:00Z"
+    "eventTime": "2026-07-01T00:21:00Z"
   },
   {
     "feedId": "F-1004",
-    "sourceSystem": "market-data",
-    "region": "APAC",
-    "channel": "api",
-    "amount": 15440.0,
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 59349.4,
     "status": "settled",
-    "eventTime": "2026-08-01T09:33:00Z"
+    "eventTime": "2026-07-01T00:28:00Z"
   },
   {
     "feedId": "F-1005",
-    "sourceSystem": "payments-core",
-    "region": NaN,
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
     "channel": "wire",
-    "amount": 910.1,
-    "status": "failed",
-    "eventTime": "2026-08-01T09:40:00Z"
+    "amount": 32309.32,
+    "status": "pending",
+    "eventTime": "2026-07-01T00:35:00Z"
   },
   {
     "feedId": "F-1006",
-    "sourceSystem": "regulatory-in",
-    "region": "EU",
-    "channel": "file",
-    "amount": 3120.75,
-    "status": "settled",
-    "eventTime": "2026-08-01T10:02:00Z"
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 39064.63,
+    "status": "retrying",
+    "eventTime": "2026-07-01T00:42:00Z"
   },
   {
     "feedId": "F-1007",
     "sourceSystem": "crm-sync",
-    "region": NaN,
-    "channel": "api",
-    "amount": 640.0,
-    "status": "pending",
-    "eventTime": "2026-08-01T10:11:00Z"
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 52583.72,
+    "status": "settled",
+    "eventTime": "2026-07-01T00:49:00Z"
   },
   {
     "feedId": "F-1008",
-    "sourceSystem": "market-data",
-    "region": "EU",
-    "channel": "api",
-    "amount": 19880.4,
-    "status": "settled",
-    "eventTime": "2026-08-01T10:16:00Z"
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 19390.66,
+    "status": "retrying",
+    "eventTime": "2026-07-01T00:56:00Z"
   },
   {
     "feedId": "F-1009",
-    "sourceSystem": "payments-core",
-    "region": "APAC",
-    "channel": "ach",
-    "amount": 2755.0,
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 38553.54,
     "status": "settled",
-    "eventTime": "2026-08-01T10:28:00Z"
+    "eventTime": "2026-07-01T01:03:00Z"
   },
   {
     "feedId": "F-1010",
-    "sourceSystem": "regulatory-in",
-    "region": NaN,
-    "channel": "file",
-    "amount": 1490.6,
-    "status": "failed",
-    "eventTime": "2026-08-01T10:44:00Z"
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 79617.22,
+    "status": "settled",
+    "eventTime": "2026-07-01T01:10:00Z"
   },
   {
     "feedId": "F-1011",
-    "sourceSystem": "crm-sync",
+    "sourceSystem": "regulatory-in",
     "region": "EU",
-    "channel": "api",
-    "amount": 510.0,
-    "status": "settled",
-    "eventTime": "2026-08-01T11:03:00Z"
+    "channel": "ach",
+    "amount": 39305.56,
+    "status": "retrying",
+    "eventTime": "2026-07-01T01:17:00Z"
   },
   {
     "feedId": "F-1012",
-    "sourceSystem": "payments-core",
-    "region": NaN,
-    "channel": "wire",
-    "amount": 17620.9,
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 27580.93,
     "status": "settled",
-    "eventTime": "2026-08-01T11:19:00Z"
+    "eventTime": "2026-07-01T01:24:00Z"
   },
   {
     "feedId": "F-1013",
-    "sourceSystem": "market-data",
-    "region": NaN,
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
     "channel": "api",
-    "amount": 4320.0,
-    "status": "pending",
-    "eventTime": "2026-08-01T11:27:00Z"
+    "amount": 5649.38,
+    "status": "settled",
+    "eventTime": "2026-07-01T01:31:00Z"
   },
   {
     "feedId": "F-1014",
-    "sourceSystem": "regulatory-in",
-    "region": "APAC",
-    "channel": "file",
-    "amount": 760.15,
-    "status": "settled",
-    "eventTime": "2026-08-01T11:41:00Z"
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 22533.19,
+    "status": "pending",
+    "eventTime": "2026-07-01T01:38:00Z"
   },
   {
     "feedId": "F-1015",
-    "sourceSystem": "payments-core",
-    "region": "EU",
-    "channel": "ach",
-    "amount": 6890.0,
-    "status": "settled",
-    "eventTime": "2026-08-01T12:05:00Z"
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 33964.06,
+    "status": "retrying",
+    "eventTime": "2026-07-01T01:45:00Z"
   },
   {
     "feedId": "F-1016",
-    "sourceSystem": "crm-sync",
-    "region": NaN,
-    "channel": "api",
-    "amount": 330.0,
-    "status": "failed",
-    "eventTime": "2026-08-01T12:14:00Z"
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 64247.59,
+    "status": "settled",
+    "eventTime": "2026-07-01T01:52:00Z"
   },
   {
     "feedId": "F-1017",
-    "sourceSystem": "market-data",
-    "region": "EU",
-    "channel": "api",
-    "amount": 11210.8,
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 32453.1,
     "status": "settled",
-    "eventTime": "2026-08-01T12:22:00Z"
+    "eventTime": "2026-07-01T01:59:00Z"
   },
   {
     "feedId": "F-1018",
-    "sourceSystem": "payments-core",
-    "region": NaN,
-    "channel": "wire",
-    "amount": 2540.0,
-    "status": "settled",
-    "eventTime": "2026-08-01T12:38:00Z"
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 75209.9,
+    "status": "pending",
+    "eventTime": "2026-07-01T02:06:00Z"
   },
   {
     "feedId": "F-1019",
-    "sourceSystem": "regulatory-in",
-    "region": "EU",
+    "sourceSystem": "market-data",
+    "region": "APAC",
     "channel": "file",
-    "amount": 2055.4,
-    "status": "pending",
-    "eventTime": "2026-08-01T12:51:00Z"
+    "amount": 13464.46,
+    "status": "retrying",
+    "eventTime": "2026-07-01T02:13:00Z"
   },
   {
     "feedId": "F-1020",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 77575.55,
+    "status": "pending",
+    "eventTime": "2026-07-01T02:20:00Z"
+  },
+  {
+    "feedId": "F-1021",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 31798.33,
+    "status": "settled",
+    "eventTime": "2026-07-01T02:27:00Z"
+  },
+  {
+    "feedId": "F-1022",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 1680.04,
+    "status": "failed",
+    "eventTime": "2026-07-01T02:34:00Z"
+  },
+  {
+    "feedId": "F-1023",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 74633.87,
+    "status": "settled",
+    "eventTime": "2026-07-01T02:41:00Z"
+  },
+  {
+    "feedId": "F-1024",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 56087.33,
+    "status": "settled",
+    "eventTime": "2026-07-01T02:48:00Z"
+  },
+  {
+    "feedId": "F-1025",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 64203.66,
+    "status": "pending",
+    "eventTime": "2026-07-01T02:55:00Z"
+  },
+  {
+    "feedId": "F-1026",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 38390.03,
+    "status": "settled",
+    "eventTime": "2026-07-01T03:02:00Z"
+  },
+  {
+    "feedId": "F-1027",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 18737.97,
+    "status": "pending",
+    "eventTime": "2026-07-01T03:09:00Z"
+  },
+  {
+    "feedId": "F-1028",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 73072.52,
+    "status": "settled",
+    "eventTime": "2026-07-01T03:16:00Z"
+  },
+  {
+    "feedId": "F-1029",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 11268.2,
+    "status": "settled",
+    "eventTime": "2026-07-01T03:23:00Z"
+  },
+  {
+    "feedId": "F-1030",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 8261.7,
+    "status": "settled",
+    "eventTime": "2026-07-01T03:30:00Z"
+  },
+  {
+    "feedId": "F-1031",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 55552.38,
+    "status": "settled",
+    "eventTime": "2026-07-01T03:37:00Z"
+  },
+  {
+    "feedId": "F-1032",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 16305.37,
+    "status": "settled",
+    "eventTime": "2026-07-01T03:44:00Z"
+  },
+  {
+    "feedId": "F-1033",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 74334.44,
+    "status": "settled",
+    "eventTime": "2026-07-01T03:51:00Z"
+  },
+  {
+    "feedId": "F-1034",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 84939.03,
+    "status": "retrying",
+    "eventTime": "2026-07-01T03:58:00Z"
+  },
+  {
+    "feedId": "F-1035",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 40928.43,
+    "status": "failed",
+    "eventTime": "2026-07-01T04:05:00Z"
+  },
+  {
+    "feedId": "F-1036",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 22560.63,
+    "status": "settled",
+    "eventTime": "2026-07-01T04:12:00Z"
+  },
+  {
+    "feedId": "F-1037",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 16161.57,
+    "status": "retrying",
+    "eventTime": "2026-07-01T04:19:00Z"
+  },
+  {
+    "feedId": "F-1038",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 26673.57,
+    "status": "settled",
+    "eventTime": "2026-07-01T04:26:00Z"
+  },
+  {
+    "feedId": "F-1039",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 81667.19,
+    "status": "failed",
+    "eventTime": "2026-07-01T04:33:00Z"
+  },
+  {
+    "feedId": "F-1040",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 73258.09,
+    "status": "settled",
+    "eventTime": "2026-07-01T04:40:00Z"
+  },
+  {
+    "feedId": "F-1041",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 6991.54,
+    "status": "failed",
+    "eventTime": "2026-07-01T04:47:00Z"
+  },
+  {
+    "feedId": "F-1042",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "api",
+    "amount": 33656.9,
+    "status": "settled",
+    "eventTime": "2026-07-01T04:54:00Z"
+  },
+  {
+    "feedId": "F-1043",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 84868.67,
+    "status": "settled",
+    "eventTime": "2026-07-01T05:01:00Z"
+  },
+  {
+    "feedId": "F-1044",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 79328.72,
+    "status": "failed",
+    "eventTime": "2026-07-01T05:08:00Z"
+  },
+  {
+    "feedId": "F-1045",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "file",
+    "amount": 70872.48,
+    "status": "settled",
+    "eventTime": "2026-07-01T05:15:00Z"
+  },
+  {
+    "feedId": "F-1046",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 69458.42,
+    "status": "failed",
+    "eventTime": "2026-07-01T05:22:00Z"
+  },
+  {
+    "feedId": "F-1047",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 75628.34,
+    "status": "settled",
+    "eventTime": "2026-07-01T05:29:00Z"
+  },
+  {
+    "feedId": "F-1048",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 58445.07,
+    "status": "settled",
+    "eventTime": "2026-07-01T05:36:00Z"
+  },
+  {
+    "feedId": "F-1049",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 36018.35,
+    "status": "settled",
+    "eventTime": "2026-07-01T05:43:00Z"
+  },
+  {
+    "feedId": "F-1050",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 63011.1,
+    "status": "settled",
+    "eventTime": "2026-07-01T05:50:00Z"
+  },
+  {
+    "feedId": "F-1051",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 3086.49,
+    "status": "settled",
+    "eventTime": "2026-07-01T05:57:00Z"
+  },
+  {
+    "feedId": "F-1052",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 26219.25,
+    "status": "failed",
+    "eventTime": "2026-07-01T06:04:00Z"
+  },
+  {
+    "feedId": "F-1053",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 66315.38,
+    "status": "retrying",
+    "eventTime": "2026-07-01T06:11:00Z"
+  },
+  {
+    "feedId": "F-1054",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 82978.11,
+    "status": "failed",
+    "eventTime": "2026-07-01T06:18:00Z"
+  },
+  {
+    "feedId": "F-1055",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 68194.93,
+    "status": "settled",
+    "eventTime": "2026-07-01T06:25:00Z"
+  },
+  {
+    "feedId": "F-1056",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 72983.96,
+    "status": "settled",
+    "eventTime": "2026-07-01T06:32:00Z"
+  },
+  {
+    "feedId": "F-1057",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 18967.93,
+    "status": "settled",
+    "eventTime": "2026-07-01T06:39:00Z"
+  },
+  {
+    "feedId": "F-1058",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 54534.91,
+    "status": "settled",
+    "eventTime": "2026-07-01T06:46:00Z"
+  },
+  {
+    "feedId": "F-1059",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 74551.34,
+    "status": "settled",
+    "eventTime": "2026-07-01T06:53:00Z"
+  },
+  {
+    "feedId": "F-1060",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 36952.06,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:00:00Z"
+  },
+  {
+    "feedId": "F-1061",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 16176.94,
+    "status": "pending",
+    "eventTime": "2026-07-01T07:07:00Z"
+  },
+  {
+    "feedId": "F-1062",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "api",
+    "amount": 36674.5,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:14:00Z"
+  },
+  {
+    "feedId": "F-1063",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 26306.46,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:21:00Z"
+  },
+  {
+    "feedId": "F-1064",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 35752.43,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:28:00Z"
+  },
+  {
+    "feedId": "F-1065",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 46585.96,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:35:00Z"
+  },
+  {
+    "feedId": "F-1066",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 37565.77,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:42:00Z"
+  },
+  {
+    "feedId": "F-1067",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 43825.53,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:49:00Z"
+  },
+  {
+    "feedId": "F-1068",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 12546.4,
+    "status": "settled",
+    "eventTime": "2026-07-01T07:56:00Z"
+  },
+  {
+    "feedId": "F-1069",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 35242.12,
+    "status": "pending",
+    "eventTime": "2026-07-01T08:03:00Z"
+  },
+  {
+    "feedId": "F-1070",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 12564.88,
+    "status": "failed",
+    "eventTime": "2026-07-01T08:10:00Z"
+  },
+  {
+    "feedId": "F-1071",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 68354.24,
+    "status": "settled",
+    "eventTime": "2026-07-01T08:17:00Z"
+  },
+  {
+    "feedId": "F-1072",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 68125.38,
+    "status": "retrying",
+    "eventTime": "2026-07-01T08:24:00Z"
+  },
+  {
+    "feedId": "F-1073",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 37916.51,
+    "status": "pending",
+    "eventTime": "2026-07-01T08:31:00Z"
+  },
+  {
+    "feedId": "F-1074",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 71392.35,
+    "status": "pending",
+    "eventTime": "2026-07-01T08:38:00Z"
+  },
+  {
+    "feedId": "F-1075",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 37403.17,
+    "status": "settled",
+    "eventTime": "2026-07-01T08:45:00Z"
+  },
+  {
+    "feedId": "F-1076",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 12841.84,
+    "status": "settled",
+    "eventTime": "2026-07-01T08:52:00Z"
+  },
+  {
+    "feedId": "F-1077",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 34660.76,
+    "status": "settled",
+    "eventTime": "2026-07-01T08:59:00Z"
+  },
+  {
+    "feedId": "F-1078",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 80416.62,
+    "status": "failed",
+    "eventTime": "2026-07-01T09:06:00Z"
+  },
+  {
+    "feedId": "F-1079",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 80134.47,
+    "status": "pending",
+    "eventTime": "2026-07-01T09:13:00Z"
+  },
+  {
+    "feedId": "F-1080",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 18670.35,
+    "status": "settled",
+    "eventTime": "2026-07-01T09:20:00Z"
+  },
+  {
+    "feedId": "F-1081",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 14049.68,
+    "status": "failed",
+    "eventTime": "2026-07-01T09:27:00Z"
+  },
+  {
+    "feedId": "F-1082",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 50321.09,
+    "status": "settled",
+    "eventTime": "2026-07-01T09:34:00Z"
+  },
+  {
+    "feedId": "F-1083",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 4297.94,
+    "status": "settled",
+    "eventTime": "2026-07-01T09:41:00Z"
+  },
+  {
+    "feedId": "F-1084",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 23669.86,
+    "status": "settled",
+    "eventTime": "2026-07-01T09:48:00Z"
+  },
+  {
+    "feedId": "F-1085",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 45862.13,
+    "status": "settled",
+    "eventTime": "2026-07-01T09:55:00Z"
+  },
+  {
+    "feedId": "F-1086",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 16965.67,
+    "status": "settled",
+    "eventTime": "2026-07-01T10:02:00Z"
+  },
+  {
+    "feedId": "F-1087",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 9745.24,
+    "status": "settled",
+    "eventTime": "2026-07-01T10:09:00Z"
+  },
+  {
+    "feedId": "F-1088",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 51625.86,
+    "status": "pending",
+    "eventTime": "2026-07-01T10:16:00Z"
+  },
+  {
+    "feedId": "F-1089",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 2207.02,
+    "status": "settled",
+    "eventTime": "2026-07-01T10:23:00Z"
+  },
+  {
+    "feedId": "F-1090",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 50338.52,
+    "status": "settled",
+    "eventTime": "2026-07-01T10:30:00Z"
+  },
+  {
+    "feedId": "F-1091",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 66529.44,
+    "status": "settled",
+    "eventTime": "2026-07-01T10:37:00Z"
+  },
+  {
+    "feedId": "F-1092",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 55049.99,
+    "status": "pending",
+    "eventTime": "2026-07-01T10:44:00Z"
+  },
+  {
+    "feedId": "F-1093",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 54033.84,
+    "status": "pending",
+    "eventTime": "2026-07-01T10:51:00Z"
+  },
+  {
+    "feedId": "F-1094",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 68701.73,
+    "status": "settled",
+    "eventTime": "2026-07-01T10:58:00Z"
+  },
+  {
+    "feedId": "F-1095",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 72399.33,
+    "status": "settled",
+    "eventTime": "2026-07-01T11:05:00Z"
+  },
+  {
+    "feedId": "F-1096",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 51887.94,
+    "status": "settled",
+    "eventTime": "2026-07-01T11:12:00Z"
+  },
+  {
+    "feedId": "F-1097",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 18049.88,
+    "status": "settled",
+    "eventTime": "2026-07-01T11:19:00Z"
+  },
+  {
+    "feedId": "F-1098",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 80586.62,
+    "status": "settled",
+    "eventTime": "2026-07-01T11:26:00Z"
+  },
+  {
+    "feedId": "F-1099",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 40481.01,
+    "status": "settled",
+    "eventTime": "2026-07-01T11:33:00Z"
+  },
+  {
+    "feedId": "F-1100",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 34388.99,
+    "status": "settled",
+    "eventTime": "2026-07-01T11:40:00Z"
+  },
+  {
+    "feedId": "F-1101",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 45140.09,
+    "status": "retrying",
+    "eventTime": "2026-07-01T11:47:00Z"
+  },
+  {
+    "feedId": "F-1102",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 38582.0,
+    "status": "settled",
+    "eventTime": "2026-07-01T11:54:00Z"
+  },
+  {
+    "feedId": "F-1103",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 63151.32,
+    "status": "settled",
+    "eventTime": "2026-07-01T12:01:00Z"
+  },
+  {
+    "feedId": "F-1104",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 50125.15,
+    "status": "retrying",
+    "eventTime": "2026-07-01T12:08:00Z"
+  },
+  {
+    "feedId": "F-1105",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "api",
+    "amount": 15273.05,
+    "status": "pending",
+    "eventTime": "2026-07-01T12:15:00Z"
+  },
+  {
+    "feedId": "F-1106",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 47046.68,
+    "status": "settled",
+    "eventTime": "2026-07-01T12:22:00Z"
+  },
+  {
+    "feedId": "F-1107",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 24186.73,
+    "status": "settled",
+    "eventTime": "2026-07-01T12:29:00Z"
+  },
+  {
+    "feedId": "F-1108",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 9719.55,
+    "status": "settled",
+    "eventTime": "2026-07-01T12:36:00Z"
+  },
+  {
+    "feedId": "F-1109",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 12703.06,
+    "status": "settled",
+    "eventTime": "2026-07-01T12:43:00Z"
+  },
+  {
+    "feedId": "F-1110",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 50680.88,
+    "status": "pending",
+    "eventTime": "2026-07-01T12:50:00Z"
+  },
+  {
+    "feedId": "F-1111",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 73117.66,
+    "status": "settled",
+    "eventTime": "2026-07-01T12:57:00Z"
+  },
+  {
+    "feedId": "F-1112",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 53178.14,
+    "status": "settled",
+    "eventTime": "2026-07-01T13:04:00Z"
+  },
+  {
+    "feedId": "F-1113",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 6403.64,
+    "status": "settled",
+    "eventTime": "2026-07-01T13:11:00Z"
+  },
+  {
+    "feedId": "F-1114",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 2798.57,
+    "status": "pending",
+    "eventTime": "2026-07-01T13:18:00Z"
+  },
+  {
+    "feedId": "F-1115",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 19860.19,
+    "status": "pending",
+    "eventTime": "2026-07-01T13:25:00Z"
+  },
+  {
+    "feedId": "F-1116",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 9778.12,
+    "status": "settled",
+    "eventTime": "2026-07-01T13:32:00Z"
+  },
+  {
+    "feedId": "F-1117",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 14124.29,
+    "status": "settled",
+    "eventTime": "2026-07-01T13:39:00Z"
+  },
+  {
+    "feedId": "F-1118",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 39852.61,
+    "status": "settled",
+    "eventTime": "2026-07-01T13:46:00Z"
+  },
+  {
+    "feedId": "F-1119",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 6860.55,
+    "status": "failed",
+    "eventTime": "2026-07-01T13:53:00Z"
+  },
+  {
+    "feedId": "F-1120",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 7785.5,
+    "status": "retrying",
+    "eventTime": "2026-07-01T14:00:00Z"
+  },
+  {
+    "feedId": "F-1121",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 40005.81,
+    "status": "failed",
+    "eventTime": "2026-07-01T14:07:00Z"
+  },
+  {
+    "feedId": "F-1122",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 69215.46,
+    "status": "settled",
+    "eventTime": "2026-07-01T14:14:00Z"
+  },
+  {
+    "feedId": "F-1123",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 8913.38,
+    "status": "settled",
+    "eventTime": "2026-07-01T14:21:00Z"
+  },
+  {
+    "feedId": "F-1124",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 80342.82,
+    "status": "settled",
+    "eventTime": "2026-07-01T14:28:00Z"
+  },
+  {
+    "feedId": "F-1125",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 82466.45,
+    "status": "failed",
+    "eventTime": "2026-07-01T14:35:00Z"
+  },
+  {
+    "feedId": "F-1126",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 4630.99,
+    "status": "settled",
+    "eventTime": "2026-07-01T14:42:00Z"
+  },
+  {
+    "feedId": "F-1127",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 22718.1,
+    "status": "failed",
+    "eventTime": "2026-07-01T14:49:00Z"
+  },
+  {
+    "feedId": "F-1128",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 82718.15,
+    "status": "pending",
+    "eventTime": "2026-07-01T14:56:00Z"
+  },
+  {
+    "feedId": "F-1129",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 34694.01,
+    "status": "retrying",
+    "eventTime": "2026-07-01T15:03:00Z"
+  },
+  {
+    "feedId": "F-1130",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 70736.37,
+    "status": "failed",
+    "eventTime": "2026-07-01T15:10:00Z"
+  },
+  {
+    "feedId": "F-1131",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 70955.67,
+    "status": "settled",
+    "eventTime": "2026-07-01T15:17:00Z"
+  },
+  {
+    "feedId": "F-1132",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 78360.75,
+    "status": "failed",
+    "eventTime": "2026-07-01T15:24:00Z"
+  },
+  {
+    "feedId": "F-1133",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 22728.0,
+    "status": "settled",
+    "eventTime": "2026-07-01T15:31:00Z"
+  },
+  {
+    "feedId": "F-1134",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 37970.36,
+    "status": "settled",
+    "eventTime": "2026-07-01T15:38:00Z"
+  },
+  {
+    "feedId": "F-1135",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 79294.12,
+    "status": "retrying",
+    "eventTime": "2026-07-01T15:45:00Z"
+  },
+  {
+    "feedId": "F-1136",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 72764.7,
+    "status": "settled",
+    "eventTime": "2026-07-01T15:52:00Z"
+  },
+  {
+    "feedId": "F-1137",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 84015.48,
+    "status": "settled",
+    "eventTime": "2026-07-01T15:59:00Z"
+  },
+  {
+    "feedId": "F-1138",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 74309.33,
+    "status": "settled",
+    "eventTime": "2026-07-01T16:06:00Z"
+  },
+  {
+    "feedId": "F-1139",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 74032.53,
+    "status": "settled",
+    "eventTime": "2026-07-01T16:13:00Z"
+  },
+  {
+    "feedId": "F-1140",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 6849.79,
+    "status": "failed",
+    "eventTime": "2026-07-01T16:20:00Z"
+  },
+  {
+    "feedId": "F-1141",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 61098.01,
+    "status": "failed",
+    "eventTime": "2026-07-01T16:27:00Z"
+  },
+  {
+    "feedId": "F-1142",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 53657.91,
+    "status": "retrying",
+    "eventTime": "2026-07-01T16:34:00Z"
+  },
+  {
+    "feedId": "F-1143",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 64637.41,
+    "status": "settled",
+    "eventTime": "2026-07-01T16:41:00Z"
+  },
+  {
+    "feedId": "F-1144",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 27588.74,
+    "status": "settled",
+    "eventTime": "2026-07-01T16:48:00Z"
+  },
+  {
+    "feedId": "F-1145",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 45160.86,
+    "status": "settled",
+    "eventTime": "2026-07-01T16:55:00Z"
+  },
+  {
+    "feedId": "F-1146",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 58074.36,
+    "status": "failed",
+    "eventTime": "2026-07-01T17:02:00Z"
+  },
+  {
+    "feedId": "F-1147",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 21606.72,
+    "status": "settled",
+    "eventTime": "2026-07-01T17:09:00Z"
+  },
+  {
+    "feedId": "F-1148",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 37560.99,
+    "status": "retrying",
+    "eventTime": "2026-07-01T17:16:00Z"
+  },
+  {
+    "feedId": "F-1149",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 71854.7,
+    "status": "retrying",
+    "eventTime": "2026-07-01T17:23:00Z"
+  },
+  {
+    "feedId": "F-1150",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 48624.13,
+    "status": "retrying",
+    "eventTime": "2026-07-01T17:30:00Z"
+  },
+  {
+    "feedId": "F-1151",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 713.12,
+    "status": "failed",
+    "eventTime": "2026-07-01T17:37:00Z"
+  },
+  {
+    "feedId": "F-1152",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 51610.35,
+    "status": "settled",
+    "eventTime": "2026-07-01T17:44:00Z"
+  },
+  {
+    "feedId": "F-1153",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 64230.18,
+    "status": "settled",
+    "eventTime": "2026-07-01T17:51:00Z"
+  },
+  {
+    "feedId": "F-1154",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 2860.15,
+    "status": "pending",
+    "eventTime": "2026-07-01T17:58:00Z"
+  },
+  {
+    "feedId": "F-1155",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 35332.38,
+    "status": "settled",
+    "eventTime": "2026-07-01T18:05:00Z"
+  },
+  {
+    "feedId": "F-1156",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 21861.03,
+    "status": "retrying",
+    "eventTime": "2026-07-01T18:12:00Z"
+  },
+  {
+    "feedId": "F-1157",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 81846.86,
+    "status": "pending",
+    "eventTime": "2026-07-01T18:19:00Z"
+  },
+  {
+    "feedId": "F-1158",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 67213.2,
+    "status": "settled",
+    "eventTime": "2026-07-01T18:26:00Z"
+  },
+  {
+    "feedId": "F-1159",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 63672.26,
+    "status": "settled",
+    "eventTime": "2026-07-01T18:33:00Z"
+  },
+  {
+    "feedId": "F-1160",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 19894.02,
+    "status": "settled",
+    "eventTime": "2026-07-01T18:40:00Z"
+  },
+  {
+    "feedId": "F-1161",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 5396.87,
+    "status": "failed",
+    "eventTime": "2026-07-01T18:47:00Z"
+  },
+  {
+    "feedId": "F-1162",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 3878.35,
+    "status": "settled",
+    "eventTime": "2026-07-01T18:54:00Z"
+  },
+  {
+    "feedId": "F-1163",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 75419.86,
+    "status": "settled",
+    "eventTime": "2026-07-01T19:01:00Z"
+  },
+  {
+    "feedId": "F-1164",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 63099.31,
+    "status": "failed",
+    "eventTime": "2026-07-01T19:08:00Z"
+  },
+  {
+    "feedId": "F-1165",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 34704.65,
+    "status": "settled",
+    "eventTime": "2026-07-01T19:15:00Z"
+  },
+  {
+    "feedId": "F-1166",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 80798.43,
+    "status": "settled",
+    "eventTime": "2026-07-01T19:22:00Z"
+  },
+  {
+    "feedId": "F-1167",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 33856.92,
+    "status": "retrying",
+    "eventTime": "2026-07-01T19:29:00Z"
+  },
+  {
+    "feedId": "F-1168",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 54365.91,
+    "status": "settled",
+    "eventTime": "2026-07-01T19:36:00Z"
+  },
+  {
+    "feedId": "F-1169",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 17462.34,
+    "status": "settled",
+    "eventTime": "2026-07-01T19:43:00Z"
+  },
+  {
+    "feedId": "F-1170",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 265.95,
+    "status": "retrying",
+    "eventTime": "2026-07-01T19:50:00Z"
+  },
+  {
+    "feedId": "F-1171",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 56198.37,
+    "status": "settled",
+    "eventTime": "2026-07-01T19:57:00Z"
+  },
+  {
+    "feedId": "F-1172",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 14831.57,
+    "status": "settled",
+    "eventTime": "2026-07-01T20:04:00Z"
+  },
+  {
+    "feedId": "F-1173",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 5425.84,
+    "status": "pending",
+    "eventTime": "2026-07-01T20:11:00Z"
+  },
+  {
+    "feedId": "F-1174",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 42838.69,
+    "status": "pending",
+    "eventTime": "2026-07-01T20:18:00Z"
+  },
+  {
+    "feedId": "F-1175",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 54692.87,
+    "status": "settled",
+    "eventTime": "2026-07-01T20:25:00Z"
+  },
+  {
+    "feedId": "F-1176",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 9199.06,
+    "status": "settled",
+    "eventTime": "2026-07-01T20:32:00Z"
+  },
+  {
+    "feedId": "F-1177",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 10748.13,
+    "status": "settled",
+    "eventTime": "2026-07-01T20:39:00Z"
+  },
+  {
+    "feedId": "F-1178",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 42984.2,
+    "status": "settled",
+    "eventTime": "2026-07-01T20:46:00Z"
+  },
+  {
+    "feedId": "F-1179",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 38395.88,
+    "status": "settled",
+    "eventTime": "2026-07-01T20:53:00Z"
+  },
+  {
+    "feedId": "F-1180",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 8104.92,
+    "status": "settled",
+    "eventTime": "2026-07-01T21:00:00Z"
+  },
+  {
+    "feedId": "F-1181",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 78455.65,
+    "status": "settled",
+    "eventTime": "2026-07-01T21:07:00Z"
+  },
+  {
+    "feedId": "F-1182",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 63296.45,
+    "status": "pending",
+    "eventTime": "2026-07-01T21:14:00Z"
+  },
+  {
+    "feedId": "F-1183",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 10411.6,
+    "status": "failed",
+    "eventTime": "2026-07-01T21:21:00Z"
+  },
+  {
+    "feedId": "F-1184",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 26575.35,
+    "status": "settled",
+    "eventTime": "2026-07-01T21:28:00Z"
+  },
+  {
+    "feedId": "F-1185",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 72022.18,
+    "status": "pending",
+    "eventTime": "2026-07-01T21:35:00Z"
+  },
+  {
+    "feedId": "F-1186",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 19242.87,
+    "status": "pending",
+    "eventTime": "2026-07-01T21:42:00Z"
+  },
+  {
+    "feedId": "F-1187",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 78973.94,
+    "status": "settled",
+    "eventTime": "2026-07-01T21:49:00Z"
+  },
+  {
+    "feedId": "F-1188",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 543.84,
+    "status": "settled",
+    "eventTime": "2026-07-01T21:56:00Z"
+  },
+  {
+    "feedId": "F-1189",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 53828.79,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:03:00Z"
+  },
+  {
+    "feedId": "F-1190",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 38573.55,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:10:00Z"
+  },
+  {
+    "feedId": "F-1191",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 13245.4,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:17:00Z"
+  },
+  {
+    "feedId": "F-1192",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 51611.28,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:24:00Z"
+  },
+  {
+    "feedId": "F-1193",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 9447.86,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:31:00Z"
+  },
+  {
+    "feedId": "F-1194",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "file",
+    "amount": 83678.27,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:38:00Z"
+  },
+  {
+    "feedId": "F-1195",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "api",
+    "amount": 24620.77,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:45:00Z"
+  },
+  {
+    "feedId": "F-1196",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 32333.13,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:52:00Z"
+  },
+  {
+    "feedId": "F-1197",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 73253.43,
+    "status": "settled",
+    "eventTime": "2026-07-01T22:59:00Z"
+  },
+  {
+    "feedId": "F-1198",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 36503.43,
+    "status": "pending",
+    "eventTime": "2026-07-01T23:06:00Z"
+  },
+  {
+    "feedId": "F-1199",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 1797.29,
+    "status": "settled",
+    "eventTime": "2026-07-01T23:13:00Z"
+  },
+  {
+    "feedId": "F-1200",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 37134.58,
+    "status": "settled",
+    "eventTime": "2026-07-01T23:20:00Z"
+  },
+  {
+    "feedId": "F-1201",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 73997.81,
+    "status": "settled",
+    "eventTime": "2026-07-01T23:27:00Z"
+  },
+  {
+    "feedId": "F-1202",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 43358.18,
+    "status": "settled",
+    "eventTime": "2026-07-01T23:34:00Z"
+  },
+  {
+    "feedId": "F-1203",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 12469.1,
+    "status": "settled",
+    "eventTime": "2026-07-01T23:41:00Z"
+  },
+  {
+    "feedId": "F-1204",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 42012.59,
+    "status": "settled",
+    "eventTime": "2026-07-01T23:48:00Z"
+  },
+  {
+    "feedId": "F-1205",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 26888.9,
+    "status": "settled",
+    "eventTime": "2026-07-01T23:55:00Z"
+  },
+  {
+    "feedId": "F-1206",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 4798.23,
+    "status": "settled",
+    "eventTime": "2026-07-02T00:02:00Z"
+  },
+  {
+    "feedId": "F-1207",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 70698.42,
+    "status": "settled",
+    "eventTime": "2026-07-02T00:09:00Z"
+  },
+  {
+    "feedId": "F-1208",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 49338.49,
+    "status": "settled",
+    "eventTime": "2026-07-02T00:16:00Z"
+  },
+  {
+    "feedId": "F-1209",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 40441.58,
+    "status": "retrying",
+    "eventTime": "2026-07-02T00:23:00Z"
+  },
+  {
+    "feedId": "F-1210",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 7190.87,
+    "status": "settled",
+    "eventTime": "2026-07-02T00:30:00Z"
+  },
+  {
+    "feedId": "F-1211",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 44445.51,
+    "status": "settled",
+    "eventTime": "2026-07-02T00:37:00Z"
+  },
+  {
+    "feedId": "F-1212",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 57714.33,
+    "status": "pending",
+    "eventTime": "2026-07-02T00:44:00Z"
+  },
+  {
+    "feedId": "F-1213",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 8055.64,
+    "status": "settled",
+    "eventTime": "2026-07-02T00:51:00Z"
+  },
+  {
+    "feedId": "F-1214",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 6950.63,
+    "status": "failed",
+    "eventTime": "2026-07-02T00:58:00Z"
+  },
+  {
+    "feedId": "F-1215",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 60258.17,
+    "status": "settled",
+    "eventTime": "2026-07-02T01:05:00Z"
+  },
+  {
+    "feedId": "F-1216",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 59748.05,
+    "status": "settled",
+    "eventTime": "2026-07-02T01:12:00Z"
+  },
+  {
+    "feedId": "F-1217",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 30836.74,
+    "status": "retrying",
+    "eventTime": "2026-07-02T01:19:00Z"
+  },
+  {
+    "feedId": "F-1218",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 84998.01,
+    "status": "settled",
+    "eventTime": "2026-07-02T01:26:00Z"
+  },
+  {
+    "feedId": "F-1219",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 28641.55,
+    "status": "settled",
+    "eventTime": "2026-07-02T01:33:00Z"
+  },
+  {
+    "feedId": "F-1220",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 65549.04,
+    "status": "pending",
+    "eventTime": "2026-07-02T01:40:00Z"
+  },
+  {
+    "feedId": "F-1221",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 61171.79,
+    "status": "settled",
+    "eventTime": "2026-07-02T01:47:00Z"
+  },
+  {
+    "feedId": "F-1222",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 20348.34,
+    "status": "failed",
+    "eventTime": "2026-07-02T01:54:00Z"
+  },
+  {
+    "feedId": "F-1223",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 65408.04,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:01:00Z"
+  },
+  {
+    "feedId": "F-1224",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 11785.42,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:08:00Z"
+  },
+  {
+    "feedId": "F-1225",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 71904.7,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:15:00Z"
+  },
+  {
+    "feedId": "F-1226",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 12545.95,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:22:00Z"
+  },
+  {
+    "feedId": "F-1227",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 35280.86,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:29:00Z"
+  },
+  {
+    "feedId": "F-1228",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 19105.18,
+    "status": "failed",
+    "eventTime": "2026-07-02T02:36:00Z"
+  },
+  {
+    "feedId": "F-1229",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 3279.81,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:43:00Z"
+  },
+  {
+    "feedId": "F-1230",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 471.22,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:50:00Z"
+  },
+  {
+    "feedId": "F-1231",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 65980.27,
+    "status": "settled",
+    "eventTime": "2026-07-02T02:57:00Z"
+  },
+  {
+    "feedId": "F-1232",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 67486.58,
+    "status": "settled",
+    "eventTime": "2026-07-02T03:04:00Z"
+  },
+  {
+    "feedId": "F-1233",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 43819.05,
+    "status": "pending",
+    "eventTime": "2026-07-02T03:11:00Z"
+  },
+  {
+    "feedId": "F-1234",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 30005.54,
+    "status": "settled",
+    "eventTime": "2026-07-02T03:18:00Z"
+  },
+  {
+    "feedId": "F-1235",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 81040.48,
+    "status": "settled",
+    "eventTime": "2026-07-02T03:25:00Z"
+  },
+  {
+    "feedId": "F-1236",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 21578.93,
+    "status": "settled",
+    "eventTime": "2026-07-02T03:32:00Z"
+  },
+  {
+    "feedId": "F-1237",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 55862.45,
+    "status": "pending",
+    "eventTime": "2026-07-02T03:39:00Z"
+  },
+  {
+    "feedId": "F-1238",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 29961.61,
+    "status": "pending",
+    "eventTime": "2026-07-02T03:46:00Z"
+  },
+  {
+    "feedId": "F-1239",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 15514.07,
+    "status": "settled",
+    "eventTime": "2026-07-02T03:53:00Z"
+  },
+  {
+    "feedId": "F-1240",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 3747.44,
+    "status": "failed",
+    "eventTime": "2026-07-02T04:00:00Z"
+  },
+  {
+    "feedId": "F-1241",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 40252.15,
+    "status": "pending",
+    "eventTime": "2026-07-02T04:07:00Z"
+  },
+  {
+    "feedId": "F-1242",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 73596.21,
+    "status": "settled",
+    "eventTime": "2026-07-02T04:14:00Z"
+  },
+  {
+    "feedId": "F-1243",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 37391.62,
+    "status": "settled",
+    "eventTime": "2026-07-02T04:21:00Z"
+  },
+  {
+    "feedId": "F-1244",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 78568.28,
+    "status": "pending",
+    "eventTime": "2026-07-02T04:28:00Z"
+  },
+  {
+    "feedId": "F-1245",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 51218.47,
+    "status": "settled",
+    "eventTime": "2026-07-02T04:35:00Z"
+  },
+  {
+    "feedId": "F-1246",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 56186.61,
+    "status": "settled",
+    "eventTime": "2026-07-02T04:42:00Z"
+  },
+  {
+    "feedId": "F-1247",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 37746.11,
+    "status": "settled",
+    "eventTime": "2026-07-02T04:49:00Z"
+  },
+  {
+    "feedId": "F-1248",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 54363.9,
+    "status": "settled",
+    "eventTime": "2026-07-02T04:56:00Z"
+  },
+  {
+    "feedId": "F-1249",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 68098.13,
+    "status": "retrying",
+    "eventTime": "2026-07-02T05:03:00Z"
+  },
+  {
+    "feedId": "F-1250",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 10751.4,
+    "status": "pending",
+    "eventTime": "2026-07-02T05:10:00Z"
+  },
+  {
+    "feedId": "F-1251",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 2776.94,
+    "status": "settled",
+    "eventTime": "2026-07-02T05:17:00Z"
+  },
+  {
+    "feedId": "F-1252",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 48794.0,
+    "status": "settled",
+    "eventTime": "2026-07-02T05:24:00Z"
+  },
+  {
+    "feedId": "F-1253",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 2226.99,
+    "status": "settled",
+    "eventTime": "2026-07-02T05:31:00Z"
+  },
+  {
+    "feedId": "F-1254",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 65877.61,
+    "status": "settled",
+    "eventTime": "2026-07-02T05:38:00Z"
+  },
+  {
+    "feedId": "F-1255",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 10446.11,
+    "status": "settled",
+    "eventTime": "2026-07-02T05:45:00Z"
+  },
+  {
+    "feedId": "F-1256",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 82243.52,
+    "status": "settled",
+    "eventTime": "2026-07-02T05:52:00Z"
+  },
+  {
+    "feedId": "F-1257",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 72369.49,
+    "status": "pending",
+    "eventTime": "2026-07-02T05:59:00Z"
+  },
+  {
+    "feedId": "F-1258",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 67330.78,
+    "status": "pending",
+    "eventTime": "2026-07-02T06:06:00Z"
+  },
+  {
+    "feedId": "F-1259",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 68316.16,
+    "status": "settled",
+    "eventTime": "2026-07-02T06:13:00Z"
+  },
+  {
+    "feedId": "F-1260",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 84965.59,
+    "status": "settled",
+    "eventTime": "2026-07-02T06:20:00Z"
+  },
+  {
+    "feedId": "F-1261",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 82652.97,
+    "status": "settled",
+    "eventTime": "2026-07-02T06:27:00Z"
+  },
+  {
+    "feedId": "F-1262",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 74629.66,
+    "status": "pending",
+    "eventTime": "2026-07-02T06:34:00Z"
+  },
+  {
+    "feedId": "F-1263",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 44050.73,
+    "status": "settled",
+    "eventTime": "2026-07-02T06:41:00Z"
+  },
+  {
+    "feedId": "F-1264",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 76071.33,
+    "status": "settled",
+    "eventTime": "2026-07-02T06:48:00Z"
+  },
+  {
+    "feedId": "F-1265",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 53136.28,
+    "status": "settled",
+    "eventTime": "2026-07-02T06:55:00Z"
+  },
+  {
+    "feedId": "F-1266",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 56000.83,
+    "status": "pending",
+    "eventTime": "2026-07-02T07:02:00Z"
+  },
+  {
+    "feedId": "F-1267",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 3888.12,
+    "status": "settled",
+    "eventTime": "2026-07-02T07:09:00Z"
+  },
+  {
+    "feedId": "F-1268",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 75567.51,
+    "status": "settled",
+    "eventTime": "2026-07-02T07:16:00Z"
+  },
+  {
+    "feedId": "F-1269",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 34532.71,
+    "status": "settled",
+    "eventTime": "2026-07-02T07:23:00Z"
+  },
+  {
+    "feedId": "F-1270",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 41174.24,
+    "status": "settled",
+    "eventTime": "2026-07-02T07:30:00Z"
+  },
+  {
+    "feedId": "F-1271",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 83982.29,
+    "status": "retrying",
+    "eventTime": "2026-07-02T07:37:00Z"
+  },
+  {
+    "feedId": "F-1272",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 20566.67,
+    "status": "settled",
+    "eventTime": "2026-07-02T07:44:00Z"
+  },
+  {
+    "feedId": "F-1273",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 24685.77,
+    "status": "failed",
+    "eventTime": "2026-07-02T07:51:00Z"
+  },
+  {
+    "feedId": "F-1274",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "api",
+    "amount": 79370.54,
+    "status": "settled",
+    "eventTime": "2026-07-02T07:58:00Z"
+  },
+  {
+    "feedId": "F-1275",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 74724.45,
+    "status": "settled",
+    "eventTime": "2026-07-02T08:05:00Z"
+  },
+  {
+    "feedId": "F-1276",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 18306.9,
+    "status": "settled",
+    "eventTime": "2026-07-02T08:12:00Z"
+  },
+  {
+    "feedId": "F-1277",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 45630.3,
+    "status": "settled",
+    "eventTime": "2026-07-02T08:19:00Z"
+  },
+  {
+    "feedId": "F-1278",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 3869.47,
+    "status": "settled",
+    "eventTime": "2026-07-02T08:26:00Z"
+  },
+  {
+    "feedId": "F-1279",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 32854.99,
+    "status": "pending",
+    "eventTime": "2026-07-02T08:33:00Z"
+  },
+  {
+    "feedId": "F-1280",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 82882.66,
+    "status": "settled",
+    "eventTime": "2026-07-02T08:40:00Z"
+  },
+  {
+    "feedId": "F-1281",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 16939.94,
+    "status": "settled",
+    "eventTime": "2026-07-02T08:47:00Z"
+  },
+  {
+    "feedId": "F-1282",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 28325.13,
+    "status": "settled",
+    "eventTime": "2026-07-02T08:54:00Z"
+  },
+  {
+    "feedId": "F-1283",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "api",
+    "amount": 79168.06,
+    "status": "settled",
+    "eventTime": "2026-07-02T09:01:00Z"
+  },
+  {
+    "feedId": "F-1284",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 70408.89,
+    "status": "pending",
+    "eventTime": "2026-07-02T09:08:00Z"
+  },
+  {
+    "feedId": "F-1285",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 28172.08,
+    "status": "retrying",
+    "eventTime": "2026-07-02T09:15:00Z"
+  },
+  {
+    "feedId": "F-1286",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 40353.3,
+    "status": "pending",
+    "eventTime": "2026-07-02T09:22:00Z"
+  },
+  {
+    "feedId": "F-1287",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 53476.42,
+    "status": "settled",
+    "eventTime": "2026-07-02T09:29:00Z"
+  },
+  {
+    "feedId": "F-1288",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 80598.73,
+    "status": "settled",
+    "eventTime": "2026-07-02T09:36:00Z"
+  },
+  {
+    "feedId": "F-1289",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 35116.29,
+    "status": "settled",
+    "eventTime": "2026-07-02T09:43:00Z"
+  },
+  {
+    "feedId": "F-1290",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 11758.56,
+    "status": "settled",
+    "eventTime": "2026-07-02T09:50:00Z"
+  },
+  {
+    "feedId": "F-1291",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 81319.35,
+    "status": "failed",
+    "eventTime": "2026-07-02T09:57:00Z"
+  },
+  {
+    "feedId": "F-1292",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 65624.83,
+    "status": "settled",
+    "eventTime": "2026-07-02T10:04:00Z"
+  },
+  {
+    "feedId": "F-1293",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 25389.97,
+    "status": "pending",
+    "eventTime": "2026-07-02T10:11:00Z"
+  },
+  {
+    "feedId": "F-1294",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 40796.3,
+    "status": "settled",
+    "eventTime": "2026-07-02T10:18:00Z"
+  },
+  {
+    "feedId": "F-1295",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 69566.62,
+    "status": "settled",
+    "eventTime": "2026-07-02T10:25:00Z"
+  },
+  {
+    "feedId": "F-1296",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 55766.22,
+    "status": "settled",
+    "eventTime": "2026-07-02T10:32:00Z"
+  },
+  {
+    "feedId": "F-1297",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 9306.53,
+    "status": "settled",
+    "eventTime": "2026-07-02T10:39:00Z"
+  },
+  {
+    "feedId": "F-1298",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 19810.29,
+    "status": "settled",
+    "eventTime": "2026-07-02T10:46:00Z"
+  },
+  {
+    "feedId": "F-1299",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 65520.85,
+    "status": "retrying",
+    "eventTime": "2026-07-02T10:53:00Z"
+  },
+  {
+    "feedId": "F-1300",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 55304.53,
+    "status": "settled",
+    "eventTime": "2026-07-02T11:00:00Z"
+  },
+  {
+    "feedId": "F-1301",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 48811.98,
+    "status": "failed",
+    "eventTime": "2026-07-02T11:07:00Z"
+  },
+  {
+    "feedId": "F-1302",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 84759.67,
+    "status": "pending",
+    "eventTime": "2026-07-02T11:14:00Z"
+  },
+  {
+    "feedId": "F-1303",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 25380.88,
+    "status": "failed",
+    "eventTime": "2026-07-02T11:21:00Z"
+  },
+  {
+    "feedId": "F-1304",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 46191.96,
+    "status": "failed",
+    "eventTime": "2026-07-02T11:28:00Z"
+  },
+  {
+    "feedId": "F-1305",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 16409.15,
+    "status": "settled",
+    "eventTime": "2026-07-02T11:35:00Z"
+  },
+  {
+    "feedId": "F-1306",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 15847.27,
+    "status": "pending",
+    "eventTime": "2026-07-02T11:42:00Z"
+  },
+  {
+    "feedId": "F-1307",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 72776.05,
+    "status": "pending",
+    "eventTime": "2026-07-02T11:49:00Z"
+  },
+  {
+    "feedId": "F-1308",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 56895.02,
+    "status": "retrying",
+    "eventTime": "2026-07-02T11:56:00Z"
+  },
+  {
+    "feedId": "F-1309",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 22185.23,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:03:00Z"
+  },
+  {
+    "feedId": "F-1310",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 61451.94,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:10:00Z"
+  },
+  {
+    "feedId": "F-1311",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 10071.16,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:17:00Z"
+  },
+  {
+    "feedId": "F-1312",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 10002.4,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:24:00Z"
+  },
+  {
+    "feedId": "F-1313",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "file",
+    "amount": 13041.94,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:31:00Z"
+  },
+  {
+    "feedId": "F-1314",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 57837.05,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:38:00Z"
+  },
+  {
+    "feedId": "F-1315",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 9559.94,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:45:00Z"
+  },
+  {
+    "feedId": "F-1316",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 37570.4,
+    "status": "pending",
+    "eventTime": "2026-07-02T12:52:00Z"
+  },
+  {
+    "feedId": "F-1317",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 38555.41,
+    "status": "settled",
+    "eventTime": "2026-07-02T12:59:00Z"
+  },
+  {
+    "feedId": "F-1318",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 68592.63,
+    "status": "settled",
+    "eventTime": "2026-07-02T13:06:00Z"
+  },
+  {
+    "feedId": "F-1319",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 36028.69,
+    "status": "settled",
+    "eventTime": "2026-07-02T13:13:00Z"
+  },
+  {
+    "feedId": "F-1320",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 24420.53,
+    "status": "pending",
+    "eventTime": "2026-07-02T13:20:00Z"
+  },
+  {
+    "feedId": "F-1321",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 38139.44,
+    "status": "settled",
+    "eventTime": "2026-07-02T13:27:00Z"
+  },
+  {
+    "feedId": "F-1322",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 73127.85,
+    "status": "settled",
+    "eventTime": "2026-07-02T13:34:00Z"
+  },
+  {
+    "feedId": "F-1323",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 83192.1,
+    "status": "pending",
+    "eventTime": "2026-07-02T13:41:00Z"
+  },
+  {
+    "feedId": "F-1324",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 32254.02,
+    "status": "settled",
+    "eventTime": "2026-07-02T13:48:00Z"
+  },
+  {
+    "feedId": "F-1325",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 79681.45,
+    "status": "settled",
+    "eventTime": "2026-07-02T13:55:00Z"
+  },
+  {
+    "feedId": "F-1326",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 17536.79,
+    "status": "settled",
+    "eventTime": "2026-07-02T14:02:00Z"
+  },
+  {
+    "feedId": "F-1327",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 62952.48,
+    "status": "settled",
+    "eventTime": "2026-07-02T14:09:00Z"
+  },
+  {
+    "feedId": "F-1328",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 42843.55,
+    "status": "settled",
+    "eventTime": "2026-07-02T14:16:00Z"
+  },
+  {
+    "feedId": "F-1329",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 50833.05,
+    "status": "settled",
+    "eventTime": "2026-07-02T14:23:00Z"
+  },
+  {
+    "feedId": "F-1330",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "file",
+    "amount": 25560.07,
+    "status": "settled",
+    "eventTime": "2026-07-02T14:30:00Z"
+  },
+  {
+    "feedId": "F-1331",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 42140.38,
+    "status": "failed",
+    "eventTime": "2026-07-02T14:37:00Z"
+  },
+  {
+    "feedId": "F-1332",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 35402.19,
+    "status": "settled",
+    "eventTime": "2026-07-02T14:44:00Z"
+  },
+  {
+    "feedId": "F-1333",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 72197.75,
+    "status": "failed",
+    "eventTime": "2026-07-02T14:51:00Z"
+  },
+  {
+    "feedId": "F-1334",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 35092.27,
+    "status": "settled",
+    "eventTime": "2026-07-02T14:58:00Z"
+  },
+  {
+    "feedId": "F-1335",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "api",
+    "amount": 17303.54,
+    "status": "failed",
+    "eventTime": "2026-07-02T15:05:00Z"
+  },
+  {
+    "feedId": "F-1336",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 22837.52,
+    "status": "failed",
+    "eventTime": "2026-07-02T15:12:00Z"
+  },
+  {
+    "feedId": "F-1337",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "file",
+    "amount": 17775.35,
+    "status": "settled",
+    "eventTime": "2026-07-02T15:19:00Z"
+  },
+  {
+    "feedId": "F-1338",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 9993.94,
+    "status": "failed",
+    "eventTime": "2026-07-02T15:26:00Z"
+  },
+  {
+    "feedId": "F-1339",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 77787.87,
+    "status": "pending",
+    "eventTime": "2026-07-02T15:33:00Z"
+  },
+  {
+    "feedId": "F-1340",
     "sourceSystem": "crm-sync",
     "region": "APAC",
     "channel": "api",
-    "amount": 980.0,
+    "amount": 22251.2,
     "status": "settled",
-    "eventTime": "2026-08-01T13:07:00Z"
+    "eventTime": "2026-07-02T15:40:00Z"
+  },
+  {
+    "feedId": "F-1341",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 31525.65,
+    "status": "settled",
+    "eventTime": "2026-07-02T15:47:00Z"
+  },
+  {
+    "feedId": "F-1342",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 47042.65,
+    "status": "settled",
+    "eventTime": "2026-07-02T15:54:00Z"
+  },
+  {
+    "feedId": "F-1343",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "file",
+    "amount": 48442.86,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:01:00Z"
+  },
+  {
+    "feedId": "F-1344",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 82154.04,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:08:00Z"
+  },
+  {
+    "feedId": "F-1345",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 61233.64,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:15:00Z"
+  },
+  {
+    "feedId": "F-1346",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 80342.36,
+    "status": "pending",
+    "eventTime": "2026-07-02T16:22:00Z"
+  },
+  {
+    "feedId": "F-1347",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 60116.73,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:29:00Z"
+  },
+  {
+    "feedId": "F-1348",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 54215.99,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:36:00Z"
+  },
+  {
+    "feedId": "F-1349",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 1446.3,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:43:00Z"
+  },
+  {
+    "feedId": "F-1350",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 9118.72,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:50:00Z"
+  },
+  {
+    "feedId": "F-1351",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 22740.92,
+    "status": "settled",
+    "eventTime": "2026-07-02T16:57:00Z"
+  },
+  {
+    "feedId": "F-1352",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 19217.22,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:04:00Z"
+  },
+  {
+    "feedId": "F-1353",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 32252.96,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:11:00Z"
+  },
+  {
+    "feedId": "F-1354",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 71856.9,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:18:00Z"
+  },
+  {
+    "feedId": "F-1355",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 17990.16,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:25:00Z"
+  },
+  {
+    "feedId": "F-1356",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 78946.92,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:32:00Z"
+  },
+  {
+    "feedId": "F-1357",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 69781.18,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:39:00Z"
+  },
+  {
+    "feedId": "F-1358",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 76207.28,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:46:00Z"
+  },
+  {
+    "feedId": "F-1359",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 63370.17,
+    "status": "settled",
+    "eventTime": "2026-07-02T17:53:00Z"
+  },
+  {
+    "feedId": "F-1360",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 51449.21,
+    "status": "retrying",
+    "eventTime": "2026-07-02T18:00:00Z"
+  },
+  {
+    "feedId": "F-1361",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 41714.03,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:07:00Z"
+  },
+  {
+    "feedId": "F-1362",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 49809.74,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:14:00Z"
+  },
+  {
+    "feedId": "F-1363",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 6271.23,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:21:00Z"
+  },
+  {
+    "feedId": "F-1364",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 30675.5,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:28:00Z"
+  },
+  {
+    "feedId": "F-1365",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 8712.11,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:35:00Z"
+  },
+  {
+    "feedId": "F-1366",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 2256.61,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:42:00Z"
+  },
+  {
+    "feedId": "F-1367",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 1073.64,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:49:00Z"
+  },
+  {
+    "feedId": "F-1368",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 44305.86,
+    "status": "settled",
+    "eventTime": "2026-07-02T18:56:00Z"
+  },
+  {
+    "feedId": "F-1369",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 12425.81,
+    "status": "settled",
+    "eventTime": "2026-07-02T19:03:00Z"
+  },
+  {
+    "feedId": "F-1370",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 30711.59,
+    "status": "pending",
+    "eventTime": "2026-07-02T19:10:00Z"
+  },
+  {
+    "feedId": "F-1371",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 9114.98,
+    "status": "settled",
+    "eventTime": "2026-07-02T19:17:00Z"
+  },
+  {
+    "feedId": "F-1372",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 37432.94,
+    "status": "pending",
+    "eventTime": "2026-07-02T19:24:00Z"
+  },
+  {
+    "feedId": "F-1373",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 27273.52,
+    "status": "settled",
+    "eventTime": "2026-07-02T19:31:00Z"
+  },
+  {
+    "feedId": "F-1374",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 62470.95,
+    "status": "retrying",
+    "eventTime": "2026-07-02T19:38:00Z"
+  },
+  {
+    "feedId": "F-1375",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 69406.62,
+    "status": "settled",
+    "eventTime": "2026-07-02T19:45:00Z"
+  },
+  {
+    "feedId": "F-1376",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 65253.33,
+    "status": "retrying",
+    "eventTime": "2026-07-02T19:52:00Z"
+  },
+  {
+    "feedId": "F-1377",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 70663.17,
+    "status": "pending",
+    "eventTime": "2026-07-02T19:59:00Z"
+  },
+  {
+    "feedId": "F-1378",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 25758.2,
+    "status": "settled",
+    "eventTime": "2026-07-02T20:06:00Z"
+  },
+  {
+    "feedId": "F-1379",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 38184.44,
+    "status": "settled",
+    "eventTime": "2026-07-02T20:13:00Z"
+  },
+  {
+    "feedId": "F-1380",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 3149.12,
+    "status": "pending",
+    "eventTime": "2026-07-02T20:20:00Z"
+  },
+  {
+    "feedId": "F-1381",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 65366.87,
+    "status": "settled",
+    "eventTime": "2026-07-02T20:27:00Z"
+  },
+  {
+    "feedId": "F-1382",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 82086.78,
+    "status": "settled",
+    "eventTime": "2026-07-02T20:34:00Z"
+  },
+  {
+    "feedId": "F-1383",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 63488.84,
+    "status": "settled",
+    "eventTime": "2026-07-02T20:41:00Z"
+  },
+  {
+    "feedId": "F-1384",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "api",
+    "amount": 84804.79,
+    "status": "settled",
+    "eventTime": "2026-07-02T20:48:00Z"
+  },
+  {
+    "feedId": "F-1385",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 12063.85,
+    "status": "settled",
+    "eventTime": "2026-07-02T20:55:00Z"
+  },
+  {
+    "feedId": "F-1386",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 40486.91,
+    "status": "pending",
+    "eventTime": "2026-07-02T21:02:00Z"
+  },
+  {
+    "feedId": "F-1387",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 3821.94,
+    "status": "settled",
+    "eventTime": "2026-07-02T21:09:00Z"
+  },
+  {
+    "feedId": "F-1388",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 20751.5,
+    "status": "settled",
+    "eventTime": "2026-07-02T21:16:00Z"
+  },
+  {
+    "feedId": "F-1389",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 19726.93,
+    "status": "settled",
+    "eventTime": "2026-07-02T21:23:00Z"
+  },
+  {
+    "feedId": "F-1390",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 62684.58,
+    "status": "settled",
+    "eventTime": "2026-07-02T21:30:00Z"
+  },
+  {
+    "feedId": "F-1391",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 18277.3,
+    "status": "pending",
+    "eventTime": "2026-07-02T21:37:00Z"
+  },
+  {
+    "feedId": "F-1392",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 15911.91,
+    "status": "settled",
+    "eventTime": "2026-07-02T21:44:00Z"
+  },
+  {
+    "feedId": "F-1393",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 82103.75,
+    "status": "settled",
+    "eventTime": "2026-07-02T21:51:00Z"
+  },
+  {
+    "feedId": "F-1394",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 29934.92,
+    "status": "settled",
+    "eventTime": "2026-07-02T21:58:00Z"
+  },
+  {
+    "feedId": "F-1395",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 11407.21,
+    "status": "settled",
+    "eventTime": "2026-07-02T22:05:00Z"
+  },
+  {
+    "feedId": "F-1396",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 12036.94,
+    "status": "settled",
+    "eventTime": "2026-07-02T22:12:00Z"
+  },
+  {
+    "feedId": "F-1397",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 15809.42,
+    "status": "settled",
+    "eventTime": "2026-07-02T22:19:00Z"
+  },
+  {
+    "feedId": "F-1398",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 26756.44,
+    "status": "settled",
+    "eventTime": "2026-07-02T22:26:00Z"
+  },
+  {
+    "feedId": "F-1399",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 16606.04,
+    "status": "retrying",
+    "eventTime": "2026-07-02T22:33:00Z"
+  },
+  {
+    "feedId": "F-1400",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 41809.41,
+    "status": "settled",
+    "eventTime": "2026-07-02T22:40:00Z"
+  },
+  {
+    "feedId": "F-1401",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 24845.34,
+    "status": "settled",
+    "eventTime": "2026-07-02T22:47:00Z"
+  },
+  {
+    "feedId": "F-1402",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 63120.49,
+    "status": "settled",
+    "eventTime": "2026-07-02T22:54:00Z"
+  },
+  {
+    "feedId": "F-1403",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 65890.23,
+    "status": "settled",
+    "eventTime": "2026-07-02T23:01:00Z"
+  },
+  {
+    "feedId": "F-1404",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "file",
+    "amount": 8727.84,
+    "status": "settled",
+    "eventTime": "2026-07-02T23:08:00Z"
+  },
+  {
+    "feedId": "F-1405",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 73290.41,
+    "status": "settled",
+    "eventTime": "2026-07-02T23:15:00Z"
+  },
+  {
+    "feedId": "F-1406",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 49983.83,
+    "status": "failed",
+    "eventTime": "2026-07-02T23:22:00Z"
+  },
+  {
+    "feedId": "F-1407",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 11856.49,
+    "status": "pending",
+    "eventTime": "2026-07-02T23:29:00Z"
+  },
+  {
+    "feedId": "F-1408",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 23910.2,
+    "status": "settled",
+    "eventTime": "2026-07-02T23:36:00Z"
+  },
+  {
+    "feedId": "F-1409",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 22742.48,
+    "status": "settled",
+    "eventTime": "2026-07-02T23:43:00Z"
+  },
+  {
+    "feedId": "F-1410",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 10807.32,
+    "status": "settled",
+    "eventTime": "2026-07-02T23:50:00Z"
+  },
+  {
+    "feedId": "F-1411",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 33394.75,
+    "status": "settled",
+    "eventTime": "2026-07-02T23:57:00Z"
+  },
+  {
+    "feedId": "F-1412",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 6442.0,
+    "status": "settled",
+    "eventTime": "2026-07-03T00:04:00Z"
+  },
+  {
+    "feedId": "F-1413",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 80772.84,
+    "status": "settled",
+    "eventTime": "2026-07-03T00:11:00Z"
+  },
+  {
+    "feedId": "F-1414",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 56460.62,
+    "status": "failed",
+    "eventTime": "2026-07-03T00:18:00Z"
+  },
+  {
+    "feedId": "F-1415",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 70116.43,
+    "status": "settled",
+    "eventTime": "2026-07-03T00:25:00Z"
+  },
+  {
+    "feedId": "F-1416",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 72459.61,
+    "status": "failed",
+    "eventTime": "2026-07-03T00:32:00Z"
+  },
+  {
+    "feedId": "F-1417",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 66636.03,
+    "status": "settled",
+    "eventTime": "2026-07-03T00:39:00Z"
+  },
+  {
+    "feedId": "F-1418",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 84306.45,
+    "status": "settled",
+    "eventTime": "2026-07-03T00:46:00Z"
+  },
+  {
+    "feedId": "F-1419",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 74329.13,
+    "status": "settled",
+    "eventTime": "2026-07-03T00:53:00Z"
+  },
+  {
+    "feedId": "F-1420",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 56491.64,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:00:00Z"
+  },
+  {
+    "feedId": "F-1421",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 55724.86,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:07:00Z"
+  },
+  {
+    "feedId": "F-1422",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 19245.57,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:14:00Z"
+  },
+  {
+    "feedId": "F-1423",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 59000.28,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:21:00Z"
+  },
+  {
+    "feedId": "F-1424",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 26652.04,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:28:00Z"
+  },
+  {
+    "feedId": "F-1425",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 47890.67,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:35:00Z"
+  },
+  {
+    "feedId": "F-1426",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 52376.06,
+    "status": "failed",
+    "eventTime": "2026-07-03T01:42:00Z"
+  },
+  {
+    "feedId": "F-1427",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 50124.04,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:49:00Z"
+  },
+  {
+    "feedId": "F-1428",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 23560.33,
+    "status": "settled",
+    "eventTime": "2026-07-03T01:56:00Z"
+  },
+  {
+    "feedId": "F-1429",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 2304.4,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:03:00Z"
+  },
+  {
+    "feedId": "F-1430",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 33314.04,
+    "status": "pending",
+    "eventTime": "2026-07-03T02:10:00Z"
+  },
+  {
+    "feedId": "F-1431",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 20510.92,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:17:00Z"
+  },
+  {
+    "feedId": "F-1432",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 32896.58,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:24:00Z"
+  },
+  {
+    "feedId": "F-1433",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 1443.18,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:31:00Z"
+  },
+  {
+    "feedId": "F-1434",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 43074.24,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:38:00Z"
+  },
+  {
+    "feedId": "F-1435",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "api",
+    "amount": 7128.66,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:45:00Z"
+  },
+  {
+    "feedId": "F-1436",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 49857.5,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:52:00Z"
+  },
+  {
+    "feedId": "F-1437",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 7350.93,
+    "status": "settled",
+    "eventTime": "2026-07-03T02:59:00Z"
+  },
+  {
+    "feedId": "F-1438",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 56625.11,
+    "status": "settled",
+    "eventTime": "2026-07-03T03:06:00Z"
+  },
+  {
+    "feedId": "F-1439",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 42207.69,
+    "status": "settled",
+    "eventTime": "2026-07-03T03:13:00Z"
+  },
+  {
+    "feedId": "F-1440",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 10810.93,
+    "status": "pending",
+    "eventTime": "2026-07-03T03:20:00Z"
+  },
+  {
+    "feedId": "F-1441",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 23136.55,
+    "status": "settled",
+    "eventTime": "2026-07-03T03:27:00Z"
+  },
+  {
+    "feedId": "F-1442",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 43428.69,
+    "status": "settled",
+    "eventTime": "2026-07-03T03:34:00Z"
+  },
+  {
+    "feedId": "F-1443",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 21703.49,
+    "status": "failed",
+    "eventTime": "2026-07-03T03:41:00Z"
+  },
+  {
+    "feedId": "F-1444",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 43262.39,
+    "status": "failed",
+    "eventTime": "2026-07-03T03:48:00Z"
+  },
+  {
+    "feedId": "F-1445",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 30953.9,
+    "status": "settled",
+    "eventTime": "2026-07-03T03:55:00Z"
+  },
+  {
+    "feedId": "F-1446",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 27370.13,
+    "status": "failed",
+    "eventTime": "2026-07-03T04:02:00Z"
+  },
+  {
+    "feedId": "F-1447",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 31704.37,
+    "status": "settled",
+    "eventTime": "2026-07-03T04:09:00Z"
+  },
+  {
+    "feedId": "F-1448",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 74547.33,
+    "status": "pending",
+    "eventTime": "2026-07-03T04:16:00Z"
+  },
+  {
+    "feedId": "F-1449",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 38837.01,
+    "status": "settled",
+    "eventTime": "2026-07-03T04:23:00Z"
+  },
+  {
+    "feedId": "F-1450",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 31319.05,
+    "status": "retrying",
+    "eventTime": "2026-07-03T04:30:00Z"
+  },
+  {
+    "feedId": "F-1451",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 566.96,
+    "status": "settled",
+    "eventTime": "2026-07-03T04:37:00Z"
+  },
+  {
+    "feedId": "F-1452",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 149.24,
+    "status": "pending",
+    "eventTime": "2026-07-03T04:44:00Z"
+  },
+  {
+    "feedId": "F-1453",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 45045.99,
+    "status": "settled",
+    "eventTime": "2026-07-03T04:51:00Z"
+  },
+  {
+    "feedId": "F-1454",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 3755.43,
+    "status": "failed",
+    "eventTime": "2026-07-03T04:58:00Z"
+  },
+  {
+    "feedId": "F-1455",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 82837.79,
+    "status": "settled",
+    "eventTime": "2026-07-03T05:05:00Z"
+  },
+  {
+    "feedId": "F-1456",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 50321.34,
+    "status": "settled",
+    "eventTime": "2026-07-03T05:12:00Z"
+  },
+  {
+    "feedId": "F-1457",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 72331.39,
+    "status": "pending",
+    "eventTime": "2026-07-03T05:19:00Z"
+  },
+  {
+    "feedId": "F-1458",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 23134.45,
+    "status": "failed",
+    "eventTime": "2026-07-03T05:26:00Z"
+  },
+  {
+    "feedId": "F-1459",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 9003.27,
+    "status": "settled",
+    "eventTime": "2026-07-03T05:33:00Z"
+  },
+  {
+    "feedId": "F-1460",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 38426.65,
+    "status": "settled",
+    "eventTime": "2026-07-03T05:40:00Z"
+  },
+  {
+    "feedId": "F-1461",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 25875.67,
+    "status": "settled",
+    "eventTime": "2026-07-03T05:47:00Z"
+  },
+  {
+    "feedId": "F-1462",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 21117.39,
+    "status": "settled",
+    "eventTime": "2026-07-03T05:54:00Z"
+  },
+  {
+    "feedId": "F-1463",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 2666.2,
+    "status": "failed",
+    "eventTime": "2026-07-03T06:01:00Z"
+  },
+  {
+    "feedId": "F-1464",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 39287.13,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:08:00Z"
+  },
+  {
+    "feedId": "F-1465",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 70016.65,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:15:00Z"
+  },
+  {
+    "feedId": "F-1466",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 1877.47,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:22:00Z"
+  },
+  {
+    "feedId": "F-1467",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 76934.0,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:29:00Z"
+  },
+  {
+    "feedId": "F-1468",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 36832.46,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:36:00Z"
+  },
+  {
+    "feedId": "F-1469",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "api",
+    "amount": 18270.5,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:43:00Z"
+  },
+  {
+    "feedId": "F-1470",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 52639.53,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:50:00Z"
+  },
+  {
+    "feedId": "F-1471",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 7479.14,
+    "status": "settled",
+    "eventTime": "2026-07-03T06:57:00Z"
+  },
+  {
+    "feedId": "F-1472",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 84497.57,
+    "status": "retrying",
+    "eventTime": "2026-07-03T07:04:00Z"
+  },
+  {
+    "feedId": "F-1473",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 66427.45,
+    "status": "failed",
+    "eventTime": "2026-07-03T07:11:00Z"
+  },
+  {
+    "feedId": "F-1474",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 15304.85,
+    "status": "settled",
+    "eventTime": "2026-07-03T07:18:00Z"
+  },
+  {
+    "feedId": "F-1475",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 45013.51,
+    "status": "retrying",
+    "eventTime": "2026-07-03T07:25:00Z"
+  },
+  {
+    "feedId": "F-1476",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "api",
+    "amount": 45375.27,
+    "status": "pending",
+    "eventTime": "2026-07-03T07:32:00Z"
+  },
+  {
+    "feedId": "F-1477",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 79494.13,
+    "status": "settled",
+    "eventTime": "2026-07-03T07:39:00Z"
+  },
+  {
+    "feedId": "F-1478",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 2421.85,
+    "status": "failed",
+    "eventTime": "2026-07-03T07:46:00Z"
+  },
+  {
+    "feedId": "F-1479",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 46092.04,
+    "status": "settled",
+    "eventTime": "2026-07-03T07:53:00Z"
+  },
+  {
+    "feedId": "F-1480",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 18618.29,
+    "status": "settled",
+    "eventTime": "2026-07-03T08:00:00Z"
+  },
+  {
+    "feedId": "F-1481",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 60946.78,
+    "status": "settled",
+    "eventTime": "2026-07-03T08:07:00Z"
+  },
+  {
+    "feedId": "F-1482",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 71954.71,
+    "status": "retrying",
+    "eventTime": "2026-07-03T08:14:00Z"
+  },
+  {
+    "feedId": "F-1483",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 25667.49,
+    "status": "retrying",
+    "eventTime": "2026-07-03T08:21:00Z"
+  },
+  {
+    "feedId": "F-1484",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 26986.16,
+    "status": "settled",
+    "eventTime": "2026-07-03T08:28:00Z"
+  },
+  {
+    "feedId": "F-1485",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 62396.22,
+    "status": "settled",
+    "eventTime": "2026-07-03T08:35:00Z"
+  },
+  {
+    "feedId": "F-1486",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 2776.72,
+    "status": "failed",
+    "eventTime": "2026-07-03T08:42:00Z"
+  },
+  {
+    "feedId": "F-1487",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 11976.17,
+    "status": "settled",
+    "eventTime": "2026-07-03T08:49:00Z"
+  },
+  {
+    "feedId": "F-1488",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 56960.34,
+    "status": "settled",
+    "eventTime": "2026-07-03T08:56:00Z"
+  },
+  {
+    "feedId": "F-1489",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 5785.86,
+    "status": "pending",
+    "eventTime": "2026-07-03T09:03:00Z"
+  },
+  {
+    "feedId": "F-1490",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 37262.76,
+    "status": "retrying",
+    "eventTime": "2026-07-03T09:10:00Z"
+  },
+  {
+    "feedId": "F-1491",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 46423.39,
+    "status": "pending",
+    "eventTime": "2026-07-03T09:17:00Z"
+  },
+  {
+    "feedId": "F-1492",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 6288.46,
+    "status": "settled",
+    "eventTime": "2026-07-03T09:24:00Z"
+  },
+  {
+    "feedId": "F-1493",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 29070.15,
+    "status": "settled",
+    "eventTime": "2026-07-03T09:31:00Z"
+  },
+  {
+    "feedId": "F-1494",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 50502.75,
+    "status": "pending",
+    "eventTime": "2026-07-03T09:38:00Z"
+  },
+  {
+    "feedId": "F-1495",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 4575.9,
+    "status": "settled",
+    "eventTime": "2026-07-03T09:45:00Z"
+  },
+  {
+    "feedId": "F-1496",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 23947.42,
+    "status": "settled",
+    "eventTime": "2026-07-03T09:52:00Z"
+  },
+  {
+    "feedId": "F-1497",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 4656.55,
+    "status": "settled",
+    "eventTime": "2026-07-03T09:59:00Z"
+  },
+  {
+    "feedId": "F-1498",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 8266.46,
+    "status": "settled",
+    "eventTime": "2026-07-03T10:06:00Z"
+  },
+  {
+    "feedId": "F-1499",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 26227.33,
+    "status": "settled",
+    "eventTime": "2026-07-03T10:13:00Z"
+  },
+  {
+    "feedId": "F-1500",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 46262.11,
+    "status": "settled",
+    "eventTime": "2026-07-03T10:20:00Z"
+  },
+  {
+    "feedId": "F-1501",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 3816.32,
+    "status": "settled",
+    "eventTime": "2026-07-03T10:27:00Z"
+  },
+  {
+    "feedId": "F-1502",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 63946.18,
+    "status": "settled",
+    "eventTime": "2026-07-03T10:34:00Z"
+  },
+  {
+    "feedId": "F-1503",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 19357.9,
+    "status": "pending",
+    "eventTime": "2026-07-03T10:41:00Z"
+  },
+  {
+    "feedId": "F-1504",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 74943.54,
+    "status": "settled",
+    "eventTime": "2026-07-03T10:48:00Z"
+  },
+  {
+    "feedId": "F-1505",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 80687.93,
+    "status": "settled",
+    "eventTime": "2026-07-03T10:55:00Z"
+  },
+  {
+    "feedId": "F-1506",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 3651.38,
+    "status": "retrying",
+    "eventTime": "2026-07-03T11:02:00Z"
+  },
+  {
+    "feedId": "F-1507",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 21938.89,
+    "status": "settled",
+    "eventTime": "2026-07-03T11:09:00Z"
+  },
+  {
+    "feedId": "F-1508",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 44185.5,
+    "status": "pending",
+    "eventTime": "2026-07-03T11:16:00Z"
+  },
+  {
+    "feedId": "F-1509",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 35242.24,
+    "status": "settled",
+    "eventTime": "2026-07-03T11:23:00Z"
+  },
+  {
+    "feedId": "F-1510",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 66266.81,
+    "status": "failed",
+    "eventTime": "2026-07-03T11:30:00Z"
+  },
+  {
+    "feedId": "F-1511",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 55665.58,
+    "status": "settled",
+    "eventTime": "2026-07-03T11:37:00Z"
+  },
+  {
+    "feedId": "F-1512",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 51745.48,
+    "status": "settled",
+    "eventTime": "2026-07-03T11:44:00Z"
+  },
+  {
+    "feedId": "F-1513",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 40406.67,
+    "status": "failed",
+    "eventTime": "2026-07-03T11:51:00Z"
+  },
+  {
+    "feedId": "F-1514",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 23847.46,
+    "status": "failed",
+    "eventTime": "2026-07-03T11:58:00Z"
+  },
+  {
+    "feedId": "F-1515",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 25558.33,
+    "status": "pending",
+    "eventTime": "2026-07-03T12:05:00Z"
+  },
+  {
+    "feedId": "F-1516",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 54881.02,
+    "status": "settled",
+    "eventTime": "2026-07-03T12:12:00Z"
+  },
+  {
+    "feedId": "F-1517",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 43810.04,
+    "status": "settled",
+    "eventTime": "2026-07-03T12:19:00Z"
+  },
+  {
+    "feedId": "F-1518",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 66349.38,
+    "status": "settled",
+    "eventTime": "2026-07-03T12:26:00Z"
+  },
+  {
+    "feedId": "F-1519",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 38811.73,
+    "status": "pending",
+    "eventTime": "2026-07-03T12:33:00Z"
+  },
+  {
+    "feedId": "F-1520",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 33755.17,
+    "status": "settled",
+    "eventTime": "2026-07-03T12:40:00Z"
+  },
+  {
+    "feedId": "F-1521",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 37932.64,
+    "status": "settled",
+    "eventTime": "2026-07-03T12:47:00Z"
+  },
+  {
+    "feedId": "F-1522",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "api",
+    "amount": 63667.97,
+    "status": "settled",
+    "eventTime": "2026-07-03T12:54:00Z"
+  },
+  {
+    "feedId": "F-1523",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 66291.07,
+    "status": "failed",
+    "eventTime": "2026-07-03T13:01:00Z"
+  },
+  {
+    "feedId": "F-1524",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 55393.63,
+    "status": "failed",
+    "eventTime": "2026-07-03T13:08:00Z"
+  },
+  {
+    "feedId": "F-1525",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 55035.4,
+    "status": "settled",
+    "eventTime": "2026-07-03T13:15:00Z"
+  },
+  {
+    "feedId": "F-1526",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 76118.67,
+    "status": "settled",
+    "eventTime": "2026-07-03T13:22:00Z"
+  },
+  {
+    "feedId": "F-1527",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 44266.21,
+    "status": "settled",
+    "eventTime": "2026-07-03T13:29:00Z"
+  },
+  {
+    "feedId": "F-1528",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 55032.9,
+    "status": "settled",
+    "eventTime": "2026-07-03T13:36:00Z"
+  },
+  {
+    "feedId": "F-1529",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 84010.97,
+    "status": "failed",
+    "eventTime": "2026-07-03T13:43:00Z"
+  },
+  {
+    "feedId": "F-1530",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 43982.02,
+    "status": "failed",
+    "eventTime": "2026-07-03T13:50:00Z"
+  },
+  {
+    "feedId": "F-1531",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 11915.51,
+    "status": "settled",
+    "eventTime": "2026-07-03T13:57:00Z"
+  },
+  {
+    "feedId": "F-1532",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 33018.66,
+    "status": "settled",
+    "eventTime": "2026-07-03T14:04:00Z"
+  },
+  {
+    "feedId": "F-1533",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 60643.56,
+    "status": "failed",
+    "eventTime": "2026-07-03T14:11:00Z"
+  },
+  {
+    "feedId": "F-1534",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 71458.27,
+    "status": "settled",
+    "eventTime": "2026-07-03T14:18:00Z"
+  },
+  {
+    "feedId": "F-1535",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 68714.02,
+    "status": "failed",
+    "eventTime": "2026-07-03T14:25:00Z"
+  },
+  {
+    "feedId": "F-1536",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "api",
+    "amount": 19002.29,
+    "status": "settled",
+    "eventTime": "2026-07-03T14:32:00Z"
+  },
+  {
+    "feedId": "F-1537",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 25011.99,
+    "status": "settled",
+    "eventTime": "2026-07-03T14:39:00Z"
+  },
+  {
+    "feedId": "F-1538",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 75603.98,
+    "status": "failed",
+    "eventTime": "2026-07-03T14:46:00Z"
+  },
+  {
+    "feedId": "F-1539",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 4618.92,
+    "status": "settled",
+    "eventTime": "2026-07-03T14:53:00Z"
+  },
+  {
+    "feedId": "F-1540",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 75894.51,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:00:00Z"
+  },
+  {
+    "feedId": "F-1541",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 28290.19,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:07:00Z"
+  },
+  {
+    "feedId": "F-1542",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 17817.27,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:14:00Z"
+  },
+  {
+    "feedId": "F-1543",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 52240.42,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:21:00Z"
+  },
+  {
+    "feedId": "F-1544",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 45383.18,
+    "status": "retrying",
+    "eventTime": "2026-07-03T15:28:00Z"
+  },
+  {
+    "feedId": "F-1545",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 57531.67,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:35:00Z"
+  },
+  {
+    "feedId": "F-1546",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 32617.2,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:42:00Z"
+  },
+  {
+    "feedId": "F-1547",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 61872.52,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:49:00Z"
+  },
+  {
+    "feedId": "F-1548",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 30552.34,
+    "status": "settled",
+    "eventTime": "2026-07-03T15:56:00Z"
+  },
+  {
+    "feedId": "F-1549",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 61816.17,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:03:00Z"
+  },
+  {
+    "feedId": "F-1550",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 31176.11,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:10:00Z"
+  },
+  {
+    "feedId": "F-1551",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 84547.95,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:17:00Z"
+  },
+  {
+    "feedId": "F-1552",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 37780.61,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:24:00Z"
+  },
+  {
+    "feedId": "F-1553",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 58295.76,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:31:00Z"
+  },
+  {
+    "feedId": "F-1554",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 51488.78,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:38:00Z"
+  },
+  {
+    "feedId": "F-1555",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 9713.22,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:45:00Z"
+  },
+  {
+    "feedId": "F-1556",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 82715.85,
+    "status": "pending",
+    "eventTime": "2026-07-03T16:52:00Z"
+  },
+  {
+    "feedId": "F-1557",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 42202.74,
+    "status": "settled",
+    "eventTime": "2026-07-03T16:59:00Z"
+  },
+  {
+    "feedId": "F-1558",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 1108.38,
+    "status": "failed",
+    "eventTime": "2026-07-03T17:06:00Z"
+  },
+  {
+    "feedId": "F-1559",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 66265.24,
+    "status": "pending",
+    "eventTime": "2026-07-03T17:13:00Z"
+  },
+  {
+    "feedId": "F-1560",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "file",
+    "amount": 84036.89,
+    "status": "settled",
+    "eventTime": "2026-07-03T17:20:00Z"
+  },
+  {
+    "feedId": "F-1561",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 72444.83,
+    "status": "pending",
+    "eventTime": "2026-07-03T17:27:00Z"
+  },
+  {
+    "feedId": "F-1562",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 72359.62,
+    "status": "settled",
+    "eventTime": "2026-07-03T17:34:00Z"
+  },
+  {
+    "feedId": "F-1563",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 76037.48,
+    "status": "failed",
+    "eventTime": "2026-07-03T17:41:00Z"
+  },
+  {
+    "feedId": "F-1564",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 9697.87,
+    "status": "retrying",
+    "eventTime": "2026-07-03T17:48:00Z"
+  },
+  {
+    "feedId": "F-1565",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 55160.73,
+    "status": "settled",
+    "eventTime": "2026-07-03T17:55:00Z"
+  },
+  {
+    "feedId": "F-1566",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 35376.96,
+    "status": "pending",
+    "eventTime": "2026-07-03T18:02:00Z"
+  },
+  {
+    "feedId": "F-1567",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 32294.32,
+    "status": "settled",
+    "eventTime": "2026-07-03T18:09:00Z"
+  },
+  {
+    "feedId": "F-1568",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 9621.86,
+    "status": "settled",
+    "eventTime": "2026-07-03T18:16:00Z"
+  },
+  {
+    "feedId": "F-1569",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 59895.68,
+    "status": "retrying",
+    "eventTime": "2026-07-03T18:23:00Z"
+  },
+  {
+    "feedId": "F-1570",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 56254.08,
+    "status": "settled",
+    "eventTime": "2026-07-03T18:30:00Z"
+  },
+  {
+    "feedId": "F-1571",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 75827.96,
+    "status": "settled",
+    "eventTime": "2026-07-03T18:37:00Z"
+  },
+  {
+    "feedId": "F-1572",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 73903.59,
+    "status": "pending",
+    "eventTime": "2026-07-03T18:44:00Z"
+  },
+  {
+    "feedId": "F-1573",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 4303.55,
+    "status": "settled",
+    "eventTime": "2026-07-03T18:51:00Z"
+  },
+  {
+    "feedId": "F-1574",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 39036.56,
+    "status": "settled",
+    "eventTime": "2026-07-03T18:58:00Z"
+  },
+  {
+    "feedId": "F-1575",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 83357.5,
+    "status": "settled",
+    "eventTime": "2026-07-03T19:05:00Z"
+  },
+  {
+    "feedId": "F-1576",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 67306.78,
+    "status": "failed",
+    "eventTime": "2026-07-03T19:12:00Z"
+  },
+  {
+    "feedId": "F-1577",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 30900.03,
+    "status": "pending",
+    "eventTime": "2026-07-03T19:19:00Z"
+  },
+  {
+    "feedId": "F-1578",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 55867.78,
+    "status": "settled",
+    "eventTime": "2026-07-03T19:26:00Z"
+  },
+  {
+    "feedId": "F-1579",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 30202.93,
+    "status": "settled",
+    "eventTime": "2026-07-03T19:33:00Z"
+  },
+  {
+    "feedId": "F-1580",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 41868.57,
+    "status": "settled",
+    "eventTime": "2026-07-03T19:40:00Z"
+  },
+  {
+    "feedId": "F-1581",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 79070.13,
+    "status": "settled",
+    "eventTime": "2026-07-03T19:47:00Z"
+  },
+  {
+    "feedId": "F-1582",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 3976.37,
+    "status": "pending",
+    "eventTime": "2026-07-03T19:54:00Z"
+  },
+  {
+    "feedId": "F-1583",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 393.59,
+    "status": "settled",
+    "eventTime": "2026-07-03T20:01:00Z"
+  },
+  {
+    "feedId": "F-1584",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 66397.4,
+    "status": "settled",
+    "eventTime": "2026-07-03T20:08:00Z"
+  },
+  {
+    "feedId": "F-1585",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 55897.92,
+    "status": "settled",
+    "eventTime": "2026-07-03T20:15:00Z"
+  },
+  {
+    "feedId": "F-1586",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "api",
+    "amount": 33834.0,
+    "status": "retrying",
+    "eventTime": "2026-07-03T20:22:00Z"
+  },
+  {
+    "feedId": "F-1587",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 51224.52,
+    "status": "pending",
+    "eventTime": "2026-07-03T20:29:00Z"
+  },
+  {
+    "feedId": "F-1588",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 17845.34,
+    "status": "settled",
+    "eventTime": "2026-07-03T20:36:00Z"
+  },
+  {
+    "feedId": "F-1589",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 46123.21,
+    "status": "pending",
+    "eventTime": "2026-07-03T20:43:00Z"
+  },
+  {
+    "feedId": "F-1590",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 48514.98,
+    "status": "settled",
+    "eventTime": "2026-07-03T20:50:00Z"
+  },
+  {
+    "feedId": "F-1591",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 44443.98,
+    "status": "settled",
+    "eventTime": "2026-07-03T20:57:00Z"
+  },
+  {
+    "feedId": "F-1592",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "api",
+    "amount": 63771.97,
+    "status": "retrying",
+    "eventTime": "2026-07-03T21:04:00Z"
+  },
+  {
+    "feedId": "F-1593",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 58708.3,
+    "status": "settled",
+    "eventTime": "2026-07-03T21:11:00Z"
+  },
+  {
+    "feedId": "F-1594",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 8733.24,
+    "status": "pending",
+    "eventTime": "2026-07-03T21:18:00Z"
+  },
+  {
+    "feedId": "F-1595",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 66671.5,
+    "status": "settled",
+    "eventTime": "2026-07-03T21:25:00Z"
+  },
+  {
+    "feedId": "F-1596",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 81320.75,
+    "status": "retrying",
+    "eventTime": "2026-07-03T21:32:00Z"
+  },
+  {
+    "feedId": "F-1597",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 52757.23,
+    "status": "pending",
+    "eventTime": "2026-07-03T21:39:00Z"
+  },
+  {
+    "feedId": "F-1598",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 81965.53,
+    "status": "settled",
+    "eventTime": "2026-07-03T21:46:00Z"
+  },
+  {
+    "feedId": "F-1599",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 62488.38,
+    "status": "settled",
+    "eventTime": "2026-07-03T21:53:00Z"
+  },
+  {
+    "feedId": "F-1600",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 13699.93,
+    "status": "settled",
+    "eventTime": "2026-07-03T22:00:00Z"
+  },
+  {
+    "feedId": "F-1601",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 78935.18,
+    "status": "pending",
+    "eventTime": "2026-07-03T22:07:00Z"
+  },
+  {
+    "feedId": "F-1602",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 67147.45,
+    "status": "settled",
+    "eventTime": "2026-07-03T22:14:00Z"
+  },
+  {
+    "feedId": "F-1603",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 44263.52,
+    "status": "settled",
+    "eventTime": "2026-07-03T22:21:00Z"
+  },
+  {
+    "feedId": "F-1604",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 18821.31,
+    "status": "settled",
+    "eventTime": "2026-07-03T22:28:00Z"
+  },
+  {
+    "feedId": "F-1605",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 80777.45,
+    "status": "retrying",
+    "eventTime": "2026-07-03T22:35:00Z"
+  },
+  {
+    "feedId": "F-1606",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 29426.97,
+    "status": "failed",
+    "eventTime": "2026-07-03T22:42:00Z"
+  },
+  {
+    "feedId": "F-1607",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 58024.8,
+    "status": "settled",
+    "eventTime": "2026-07-03T22:49:00Z"
+  },
+  {
+    "feedId": "F-1608",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 61544.83,
+    "status": "failed",
+    "eventTime": "2026-07-03T22:56:00Z"
+  },
+  {
+    "feedId": "F-1609",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 3751.29,
+    "status": "settled",
+    "eventTime": "2026-07-03T23:03:00Z"
+  },
+  {
+    "feedId": "F-1610",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 45334.16,
+    "status": "settled",
+    "eventTime": "2026-07-03T23:10:00Z"
+  },
+  {
+    "feedId": "F-1611",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 17494.12,
+    "status": "settled",
+    "eventTime": "2026-07-03T23:17:00Z"
+  },
+  {
+    "feedId": "F-1612",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 60940.88,
+    "status": "settled",
+    "eventTime": "2026-07-03T23:24:00Z"
+  },
+  {
+    "feedId": "F-1613",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 6010.82,
+    "status": "failed",
+    "eventTime": "2026-07-03T23:31:00Z"
+  },
+  {
+    "feedId": "F-1614",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 34392.97,
+    "status": "settled",
+    "eventTime": "2026-07-03T23:38:00Z"
+  },
+  {
+    "feedId": "F-1615",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 61231.28,
+    "status": "pending",
+    "eventTime": "2026-07-03T23:45:00Z"
+  },
+  {
+    "feedId": "F-1616",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 78885.86,
+    "status": "settled",
+    "eventTime": "2026-07-03T23:52:00Z"
+  },
+  {
+    "feedId": "F-1617",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 65054.18,
+    "status": "settled",
+    "eventTime": "2026-07-03T23:59:00Z"
+  },
+  {
+    "feedId": "F-1618",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 45356.42,
+    "status": "pending",
+    "eventTime": "2026-07-04T00:06:00Z"
+  },
+  {
+    "feedId": "F-1619",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 57577.64,
+    "status": "retrying",
+    "eventTime": "2026-07-04T00:13:00Z"
+  },
+  {
+    "feedId": "F-1620",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 3574.67,
+    "status": "settled",
+    "eventTime": "2026-07-04T00:20:00Z"
+  },
+  {
+    "feedId": "F-1621",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 63028.06,
+    "status": "settled",
+    "eventTime": "2026-07-04T00:27:00Z"
+  },
+  {
+    "feedId": "F-1622",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 15659.78,
+    "status": "settled",
+    "eventTime": "2026-07-04T00:34:00Z"
+  },
+  {
+    "feedId": "F-1623",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 39221.01,
+    "status": "settled",
+    "eventTime": "2026-07-04T00:41:00Z"
+  },
+  {
+    "feedId": "F-1624",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 61681.95,
+    "status": "retrying",
+    "eventTime": "2026-07-04T00:48:00Z"
+  },
+  {
+    "feedId": "F-1625",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 24254.53,
+    "status": "failed",
+    "eventTime": "2026-07-04T00:55:00Z"
+  },
+  {
+    "feedId": "F-1626",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 52398.7,
+    "status": "settled",
+    "eventTime": "2026-07-04T01:02:00Z"
+  },
+  {
+    "feedId": "F-1627",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 81487.04,
+    "status": "settled",
+    "eventTime": "2026-07-04T01:09:00Z"
+  },
+  {
+    "feedId": "F-1628",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 71413.35,
+    "status": "settled",
+    "eventTime": "2026-07-04T01:16:00Z"
+  },
+  {
+    "feedId": "F-1629",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 30509.07,
+    "status": "settled",
+    "eventTime": "2026-07-04T01:23:00Z"
+  },
+  {
+    "feedId": "F-1630",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 72994.19,
+    "status": "failed",
+    "eventTime": "2026-07-04T01:30:00Z"
+  },
+  {
+    "feedId": "F-1631",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 6432.11,
+    "status": "pending",
+    "eventTime": "2026-07-04T01:37:00Z"
+  },
+  {
+    "feedId": "F-1632",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 18104.34,
+    "status": "settled",
+    "eventTime": "2026-07-04T01:44:00Z"
+  },
+  {
+    "feedId": "F-1633",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 65897.39,
+    "status": "settled",
+    "eventTime": "2026-07-04T01:51:00Z"
+  },
+  {
+    "feedId": "F-1634",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 42607.94,
+    "status": "settled",
+    "eventTime": "2026-07-04T01:58:00Z"
+  },
+  {
+    "feedId": "F-1635",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 58161.64,
+    "status": "settled",
+    "eventTime": "2026-07-04T02:05:00Z"
+  },
+  {
+    "feedId": "F-1636",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 62227.08,
+    "status": "settled",
+    "eventTime": "2026-07-04T02:12:00Z"
+  },
+  {
+    "feedId": "F-1637",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 31417.75,
+    "status": "settled",
+    "eventTime": "2026-07-04T02:19:00Z"
+  },
+  {
+    "feedId": "F-1638",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 78023.72,
+    "status": "settled",
+    "eventTime": "2026-07-04T02:26:00Z"
+  },
+  {
+    "feedId": "F-1639",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 82318.31,
+    "status": "pending",
+    "eventTime": "2026-07-04T02:33:00Z"
+  },
+  {
+    "feedId": "F-1640",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "file",
+    "amount": 55571.06,
+    "status": "settled",
+    "eventTime": "2026-07-04T02:40:00Z"
+  },
+  {
+    "feedId": "F-1641",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 82677.98,
+    "status": "settled",
+    "eventTime": "2026-07-04T02:47:00Z"
+  },
+  {
+    "feedId": "F-1642",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 75412.44,
+    "status": "settled",
+    "eventTime": "2026-07-04T02:54:00Z"
+  },
+  {
+    "feedId": "F-1643",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 6575.57,
+    "status": "settled",
+    "eventTime": "2026-07-04T03:01:00Z"
+  },
+  {
+    "feedId": "F-1644",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 60977.8,
+    "status": "settled",
+    "eventTime": "2026-07-04T03:08:00Z"
+  },
+  {
+    "feedId": "F-1645",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 57402.62,
+    "status": "settled",
+    "eventTime": "2026-07-04T03:15:00Z"
+  },
+  {
+    "feedId": "F-1646",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 3691.19,
+    "status": "settled",
+    "eventTime": "2026-07-04T03:22:00Z"
+  },
+  {
+    "feedId": "F-1647",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 14159.86,
+    "status": "settled",
+    "eventTime": "2026-07-04T03:29:00Z"
+  },
+  {
+    "feedId": "F-1648",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 61884.62,
+    "status": "failed",
+    "eventTime": "2026-07-04T03:36:00Z"
+  },
+  {
+    "feedId": "F-1649",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "file",
+    "amount": 14518.91,
+    "status": "settled",
+    "eventTime": "2026-07-04T03:43:00Z"
+  },
+  {
+    "feedId": "F-1650",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 61562.77,
+    "status": "failed",
+    "eventTime": "2026-07-04T03:50:00Z"
+  },
+  {
+    "feedId": "F-1651",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 32163.51,
+    "status": "settled",
+    "eventTime": "2026-07-04T03:57:00Z"
+  },
+  {
+    "feedId": "F-1652",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 51478.3,
+    "status": "settled",
+    "eventTime": "2026-07-04T04:04:00Z"
+  },
+  {
+    "feedId": "F-1653",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 42795.4,
+    "status": "settled",
+    "eventTime": "2026-07-04T04:11:00Z"
+  },
+  {
+    "feedId": "F-1654",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 55193.47,
+    "status": "settled",
+    "eventTime": "2026-07-04T04:18:00Z"
+  },
+  {
+    "feedId": "F-1655",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 79767.38,
+    "status": "pending",
+    "eventTime": "2026-07-04T04:25:00Z"
+  },
+  {
+    "feedId": "F-1656",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 11401.72,
+    "status": "pending",
+    "eventTime": "2026-07-04T04:32:00Z"
+  },
+  {
+    "feedId": "F-1657",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 16087.06,
+    "status": "settled",
+    "eventTime": "2026-07-04T04:39:00Z"
+  },
+  {
+    "feedId": "F-1658",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 55645.06,
+    "status": "settled",
+    "eventTime": "2026-07-04T04:46:00Z"
+  },
+  {
+    "feedId": "F-1659",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 49766.83,
+    "status": "failed",
+    "eventTime": "2026-07-04T04:53:00Z"
+  },
+  {
+    "feedId": "F-1660",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 23440.76,
+    "status": "pending",
+    "eventTime": "2026-07-04T05:00:00Z"
+  },
+  {
+    "feedId": "F-1661",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 31483.85,
+    "status": "settled",
+    "eventTime": "2026-07-04T05:07:00Z"
+  },
+  {
+    "feedId": "F-1662",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 33856.08,
+    "status": "failed",
+    "eventTime": "2026-07-04T05:14:00Z"
+  },
+  {
+    "feedId": "F-1663",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "file",
+    "amount": 66569.71,
+    "status": "settled",
+    "eventTime": "2026-07-04T05:21:00Z"
+  },
+  {
+    "feedId": "F-1664",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 52201.81,
+    "status": "settled",
+    "eventTime": "2026-07-04T05:28:00Z"
+  },
+  {
+    "feedId": "F-1665",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 40105.04,
+    "status": "settled",
+    "eventTime": "2026-07-04T05:35:00Z"
+  },
+  {
+    "feedId": "F-1666",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 51777.23,
+    "status": "failed",
+    "eventTime": "2026-07-04T05:42:00Z"
+  },
+  {
+    "feedId": "F-1667",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 81900.95,
+    "status": "failed",
+    "eventTime": "2026-07-04T05:49:00Z"
+  },
+  {
+    "feedId": "F-1668",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 17165.07,
+    "status": "settled",
+    "eventTime": "2026-07-04T05:56:00Z"
+  },
+  {
+    "feedId": "F-1669",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 14426.81,
+    "status": "settled",
+    "eventTime": "2026-07-04T06:03:00Z"
+  },
+  {
+    "feedId": "F-1670",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 84729.54,
+    "status": "settled",
+    "eventTime": "2026-07-04T06:10:00Z"
+  },
+  {
+    "feedId": "F-1671",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 1330.77,
+    "status": "failed",
+    "eventTime": "2026-07-04T06:17:00Z"
+  },
+  {
+    "feedId": "F-1672",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 81880.37,
+    "status": "settled",
+    "eventTime": "2026-07-04T06:24:00Z"
+  },
+  {
+    "feedId": "F-1673",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 420.26,
+    "status": "settled",
+    "eventTime": "2026-07-04T06:31:00Z"
+  },
+  {
+    "feedId": "F-1674",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 25029.05,
+    "status": "pending",
+    "eventTime": "2026-07-04T06:38:00Z"
+  },
+  {
+    "feedId": "F-1675",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 37649.27,
+    "status": "settled",
+    "eventTime": "2026-07-04T06:45:00Z"
+  },
+  {
+    "feedId": "F-1676",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 39174.72,
+    "status": "settled",
+    "eventTime": "2026-07-04T06:52:00Z"
+  },
+  {
+    "feedId": "F-1677",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 67041.05,
+    "status": "settled",
+    "eventTime": "2026-07-04T06:59:00Z"
+  },
+  {
+    "feedId": "F-1678",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 43914.95,
+    "status": "pending",
+    "eventTime": "2026-07-04T07:06:00Z"
+  },
+  {
+    "feedId": "F-1679",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 33924.13,
+    "status": "settled",
+    "eventTime": "2026-07-04T07:13:00Z"
+  },
+  {
+    "feedId": "F-1680",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 18597.66,
+    "status": "settled",
+    "eventTime": "2026-07-04T07:20:00Z"
+  },
+  {
+    "feedId": "F-1681",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 16991.66,
+    "status": "failed",
+    "eventTime": "2026-07-04T07:27:00Z"
+  },
+  {
+    "feedId": "F-1682",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 71092.54,
+    "status": "settled",
+    "eventTime": "2026-07-04T07:34:00Z"
+  },
+  {
+    "feedId": "F-1683",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 81242.38,
+    "status": "settled",
+    "eventTime": "2026-07-04T07:41:00Z"
+  },
+  {
+    "feedId": "F-1684",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 52766.22,
+    "status": "failed",
+    "eventTime": "2026-07-04T07:48:00Z"
+  },
+  {
+    "feedId": "F-1685",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 83673.94,
+    "status": "settled",
+    "eventTime": "2026-07-04T07:55:00Z"
+  },
+  {
+    "feedId": "F-1686",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 67942.96,
+    "status": "failed",
+    "eventTime": "2026-07-04T08:02:00Z"
+  },
+  {
+    "feedId": "F-1687",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 73137.5,
+    "status": "settled",
+    "eventTime": "2026-07-04T08:09:00Z"
+  },
+  {
+    "feedId": "F-1688",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 58590.67,
+    "status": "settled",
+    "eventTime": "2026-07-04T08:16:00Z"
+  },
+  {
+    "feedId": "F-1689",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 30752.16,
+    "status": "settled",
+    "eventTime": "2026-07-04T08:23:00Z"
+  },
+  {
+    "feedId": "F-1690",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 81475.82,
+    "status": "settled",
+    "eventTime": "2026-07-04T08:30:00Z"
+  },
+  {
+    "feedId": "F-1691",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "file",
+    "amount": 59568.06,
+    "status": "settled",
+    "eventTime": "2026-07-04T08:37:00Z"
+  },
+  {
+    "feedId": "F-1692",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 48580.54,
+    "status": "pending",
+    "eventTime": "2026-07-04T08:44:00Z"
+  },
+  {
+    "feedId": "F-1693",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 36752.79,
+    "status": "settled",
+    "eventTime": "2026-07-04T08:51:00Z"
+  },
+  {
+    "feedId": "F-1694",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "wire",
+    "amount": 15032.2,
+    "status": "settled",
+    "eventTime": "2026-07-04T08:58:00Z"
+  },
+  {
+    "feedId": "F-1695",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 25520.4,
+    "status": "settled",
+    "eventTime": "2026-07-04T09:05:00Z"
+  },
+  {
+    "feedId": "F-1696",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 69179.19,
+    "status": "pending",
+    "eventTime": "2026-07-04T09:12:00Z"
+  },
+  {
+    "feedId": "F-1697",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 30697.75,
+    "status": "settled",
+    "eventTime": "2026-07-04T09:19:00Z"
+  },
+  {
+    "feedId": "F-1698",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 81865.83,
+    "status": "settled",
+    "eventTime": "2026-07-04T09:26:00Z"
+  },
+  {
+    "feedId": "F-1699",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 30200.39,
+    "status": "pending",
+    "eventTime": "2026-07-04T09:33:00Z"
+  },
+  {
+    "feedId": "F-1700",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 24372.34,
+    "status": "failed",
+    "eventTime": "2026-07-04T09:40:00Z"
+  },
+  {
+    "feedId": "F-1701",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 52056.05,
+    "status": "pending",
+    "eventTime": "2026-07-04T09:47:00Z"
+  },
+  {
+    "feedId": "F-1702",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "api",
+    "amount": 19417.82,
+    "status": "settled",
+    "eventTime": "2026-07-04T09:54:00Z"
+  },
+  {
+    "feedId": "F-1703",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 75456.61,
+    "status": "pending",
+    "eventTime": "2026-07-04T10:01:00Z"
+  },
+  {
+    "feedId": "F-1704",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 15650.73,
+    "status": "settled",
+    "eventTime": "2026-07-04T10:08:00Z"
+  },
+  {
+    "feedId": "F-1705",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 14208.22,
+    "status": "settled",
+    "eventTime": "2026-07-04T10:15:00Z"
+  },
+  {
+    "feedId": "F-1706",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 65535.09,
+    "status": "settled",
+    "eventTime": "2026-07-04T10:22:00Z"
+  },
+  {
+    "feedId": "F-1707",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "sftp",
+    "amount": 79186.82,
+    "status": "settled",
+    "eventTime": "2026-07-04T10:29:00Z"
+  },
+  {
+    "feedId": "F-1708",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 10766.83,
+    "status": "settled",
+    "eventTime": "2026-07-04T10:36:00Z"
+  },
+  {
+    "feedId": "F-1709",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 39724.77,
+    "status": "settled",
+    "eventTime": "2026-07-04T10:43:00Z"
+  },
+  {
+    "feedId": "F-1710",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 50804.72,
+    "status": "settled",
+    "eventTime": "2026-07-04T10:50:00Z"
+  },
+  {
+    "feedId": "F-1711",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 40953.35,
+    "status": "pending",
+    "eventTime": "2026-07-04T10:57:00Z"
+  },
+  {
+    "feedId": "F-1712",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 22102.1,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:04:00Z"
+  },
+  {
+    "feedId": "F-1713",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 39895.1,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:11:00Z"
+  },
+  {
+    "feedId": "F-1714",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 65104.74,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:18:00Z"
+  },
+  {
+    "feedId": "F-1715",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 35012.26,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:25:00Z"
+  },
+  {
+    "feedId": "F-1716",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 22371.75,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:32:00Z"
+  },
+  {
+    "feedId": "F-1717",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 55127.64,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:39:00Z"
+  },
+  {
+    "feedId": "F-1718",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "api",
+    "amount": 9402.53,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:46:00Z"
+  },
+  {
+    "feedId": "F-1719",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 27271.7,
+    "status": "settled",
+    "eventTime": "2026-07-04T11:53:00Z"
+  },
+  {
+    "feedId": "F-1720",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 23997.68,
+    "status": "pending",
+    "eventTime": "2026-07-04T12:00:00Z"
+  },
+  {
+    "feedId": "F-1721",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 12829.35,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:07:00Z"
+  },
+  {
+    "feedId": "F-1722",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "api",
+    "amount": 39426.59,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:14:00Z"
+  },
+  {
+    "feedId": "F-1723",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 6090.91,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:21:00Z"
+  },
+  {
+    "feedId": "F-1724",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 82841.51,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:28:00Z"
+  },
+  {
+    "feedId": "F-1725",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 39184.42,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:35:00Z"
+  },
+  {
+    "feedId": "F-1726",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 81704.15,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:42:00Z"
+  },
+  {
+    "feedId": "F-1727",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 40917.48,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:49:00Z"
+  },
+  {
+    "feedId": "F-1728",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 53806.44,
+    "status": "settled",
+    "eventTime": "2026-07-04T12:56:00Z"
+  },
+  {
+    "feedId": "F-1729",
+    "sourceSystem": "market-data",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 67082.49,
+    "status": "retrying",
+    "eventTime": "2026-07-04T13:03:00Z"
+  },
+  {
+    "feedId": "F-1730",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "api",
+    "amount": 65523.48,
+    "status": "settled",
+    "eventTime": "2026-07-04T13:10:00Z"
+  },
+  {
+    "feedId": "F-1731",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 5127.95,
+    "status": "settled",
+    "eventTime": "2026-07-04T13:17:00Z"
+  },
+  {
+    "feedId": "F-1732",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 41479.45,
+    "status": "retrying",
+    "eventTime": "2026-07-04T13:24:00Z"
+  },
+  {
+    "feedId": "F-1733",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 16422.23,
+    "status": "settled",
+    "eventTime": "2026-07-04T13:31:00Z"
+  },
+  {
+    "feedId": "F-1734",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "file",
+    "amount": 60070.54,
+    "status": "settled",
+    "eventTime": "2026-07-04T13:38:00Z"
+  },
+  {
+    "feedId": "F-1735",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 29567.81,
+    "status": "settled",
+    "eventTime": "2026-07-04T13:45:00Z"
+  },
+  {
+    "feedId": "F-1736",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 45158.4,
+    "status": "settled",
+    "eventTime": "2026-07-04T13:52:00Z"
+  },
+  {
+    "feedId": "F-1737",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 86.17,
+    "status": "pending",
+    "eventTime": "2026-07-04T13:59:00Z"
+  },
+  {
+    "feedId": "F-1738",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 20315.89,
+    "status": "settled",
+    "eventTime": "2026-07-04T14:06:00Z"
+  },
+  {
+    "feedId": "F-1739",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 58081.97,
+    "status": "settled",
+    "eventTime": "2026-07-04T14:13:00Z"
+  },
+  {
+    "feedId": "F-1740",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 8204.38,
+    "status": "settled",
+    "eventTime": "2026-07-04T14:20:00Z"
+  },
+  {
+    "feedId": "F-1741",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 9122.01,
+    "status": "settled",
+    "eventTime": "2026-07-04T14:27:00Z"
+  },
+  {
+    "feedId": "F-1742",
+    "sourceSystem": "ledger-erp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 53046.89,
+    "status": "settled",
+    "eventTime": "2026-07-04T14:34:00Z"
+  },
+  {
+    "feedId": "F-1743",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 79069.68,
+    "status": "settled",
+    "eventTime": "2026-07-04T14:41:00Z"
+  },
+  {
+    "feedId": "F-1744",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 47442.74,
+    "status": "pending",
+    "eventTime": "2026-07-04T14:48:00Z"
+  },
+  {
+    "feedId": "F-1745",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 3479.5,
+    "status": "pending",
+    "eventTime": "2026-07-04T14:55:00Z"
+  },
+  {
+    "feedId": "F-1746",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 61646.48,
+    "status": "settled",
+    "eventTime": "2026-07-04T15:02:00Z"
+  },
+  {
+    "feedId": "F-1747",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "webhook",
+    "amount": 63687.79,
+    "status": "pending",
+    "eventTime": "2026-07-04T15:09:00Z"
+  },
+  {
+    "feedId": "F-1748",
+    "sourceSystem": "partner-sftp",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 39004.78,
+    "status": "failed",
+    "eventTime": "2026-07-04T15:16:00Z"
+  },
+  {
+    "feedId": "F-1749",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 28705.16,
+    "status": "settled",
+    "eventTime": "2026-07-04T15:23:00Z"
+  },
+  {
+    "feedId": "F-1750",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 46768.16,
+    "status": "pending",
+    "eventTime": "2026-07-04T15:30:00Z"
+  },
+  {
+    "feedId": "F-1751",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 20480.4,
+    "status": "settled",
+    "eventTime": "2026-07-04T15:37:00Z"
+  },
+  {
+    "feedId": "F-1752",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 38051.29,
+    "status": "settled",
+    "eventTime": "2026-07-04T15:44:00Z"
+  },
+  {
+    "feedId": "F-1753",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 11503.91,
+    "status": "settled",
+    "eventTime": "2026-07-04T15:51:00Z"
+  },
+  {
+    "feedId": "F-1754",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 65585.17,
+    "status": "failed",
+    "eventTime": "2026-07-04T15:58:00Z"
+  },
+  {
+    "feedId": "F-1755",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 3231.64,
+    "status": "settled",
+    "eventTime": "2026-07-04T16:05:00Z"
+  },
+  {
+    "feedId": "F-1756",
+    "sourceSystem": "market-data",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 21799.32,
+    "status": "settled",
+    "eventTime": "2026-07-04T16:12:00Z"
+  },
+  {
+    "feedId": "F-1757",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 6585.2,
+    "status": "pending",
+    "eventTime": "2026-07-04T16:19:00Z"
+  },
+  {
+    "feedId": "F-1758",
+    "sourceSystem": "regulatory-in",
+    "region": "AMER",
+    "channel": "webhook",
+    "amount": 54600.59,
+    "status": "pending",
+    "eventTime": "2026-07-04T16:26:00Z"
+  },
+  {
+    "feedId": "F-1759",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "wire",
+    "amount": 78361.03,
+    "status": "settled",
+    "eventTime": "2026-07-04T16:33:00Z"
+  },
+  {
+    "feedId": "F-1760",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 63558.99,
+    "status": "settled",
+    "eventTime": "2026-07-04T16:40:00Z"
+  },
+  {
+    "feedId": "F-1761",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 44584.48,
+    "status": "settled",
+    "eventTime": "2026-07-04T16:47:00Z"
+  },
+  {
+    "feedId": "F-1762",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 4317.92,
+    "status": "retrying",
+    "eventTime": "2026-07-04T16:54:00Z"
+  },
+  {
+    "feedId": "F-1763",
+    "sourceSystem": "ledger-erp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 36728.73,
+    "status": "settled",
+    "eventTime": "2026-07-04T17:01:00Z"
+  },
+  {
+    "feedId": "F-1764",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 63358.15,
+    "status": "settled",
+    "eventTime": "2026-07-04T17:08:00Z"
+  },
+  {
+    "feedId": "F-1765",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 11103.63,
+    "status": "settled",
+    "eventTime": "2026-07-04T17:15:00Z"
+  },
+  {
+    "feedId": "F-1766",
+    "sourceSystem": "regulatory-in",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 48573.82,
+    "status": "settled",
+    "eventTime": "2026-07-04T17:22:00Z"
+  },
+  {
+    "feedId": "F-1767",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 78553.63,
+    "status": "settled",
+    "eventTime": "2026-07-04T17:29:00Z"
+  },
+  {
+    "feedId": "F-1768",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 16211.87,
+    "status": "settled",
+    "eventTime": "2026-07-04T17:36:00Z"
+  },
+  {
+    "feedId": "F-1769",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "api",
+    "amount": 52388.38,
+    "status": "settled",
+    "eventTime": "2026-07-04T17:43:00Z"
+  },
+  {
+    "feedId": "F-1770",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 58263.4,
+    "status": "pending",
+    "eventTime": "2026-07-04T17:50:00Z"
+  },
+  {
+    "feedId": "F-1771",
+    "sourceSystem": "payments-core",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 80661.25,
+    "status": "failed",
+    "eventTime": "2026-07-04T17:57:00Z"
+  },
+  {
+    "feedId": "F-1772",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "sftp",
+    "amount": 68368.76,
+    "status": "settled",
+    "eventTime": "2026-07-04T18:04:00Z"
+  },
+  {
+    "feedId": "F-1773",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 45742.01,
+    "status": "settled",
+    "eventTime": "2026-07-04T18:11:00Z"
+  },
+  {
+    "feedId": "F-1774",
+    "sourceSystem": "market-data",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 62050.26,
+    "status": "settled",
+    "eventTime": "2026-07-04T18:18:00Z"
+  },
+  {
+    "feedId": "F-1775",
+    "sourceSystem": "partner-sftp",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 77015.77,
+    "status": "settled",
+    "eventTime": "2026-07-04T18:25:00Z"
+  },
+  {
+    "feedId": "F-1776",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "sftp",
+    "amount": 52536.56,
+    "status": "settled",
+    "eventTime": "2026-07-04T18:32:00Z"
+  },
+  {
+    "feedId": "F-1777",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "sftp",
+    "amount": 23079.6,
+    "status": "failed",
+    "eventTime": "2026-07-04T18:39:00Z"
+  },
+  {
+    "feedId": "F-1778",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 83282.9,
+    "status": "failed",
+    "eventTime": "2026-07-04T18:46:00Z"
+  },
+  {
+    "feedId": "F-1779",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 16924.42,
+    "status": "settled",
+    "eventTime": "2026-07-04T18:53:00Z"
+  },
+  {
+    "feedId": "F-1780",
+    "sourceSystem": "partner-sftp",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 78394.9,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:00:00Z"
+  },
+  {
+    "feedId": "F-1781",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "api",
+    "amount": 58174.36,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:07:00Z"
+  },
+  {
+    "feedId": "F-1782",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 53201.71,
+    "status": "failed",
+    "eventTime": "2026-07-04T19:14:00Z"
+  },
+  {
+    "feedId": "F-1783",
+    "sourceSystem": "payments-core",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 12916.4,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:21:00Z"
+  },
+  {
+    "feedId": "F-1784",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "file",
+    "amount": 20449.66,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:28:00Z"
+  },
+  {
+    "feedId": "F-1785",
+    "sourceSystem": "market-data",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 46101.31,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:35:00Z"
+  },
+  {
+    "feedId": "F-1786",
+    "sourceSystem": "ledger-erp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 26282.14,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:42:00Z"
+  },
+  {
+    "feedId": "F-1787",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "api",
+    "amount": 5787.5,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:49:00Z"
+  },
+  {
+    "feedId": "F-1788",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "file",
+    "amount": 81702.65,
+    "status": "settled",
+    "eventTime": "2026-07-04T19:56:00Z"
+  },
+  {
+    "feedId": "F-1789",
+    "sourceSystem": "partner-sftp",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 9097.9,
+    "status": "settled",
+    "eventTime": "2026-07-04T20:03:00Z"
+  },
+  {
+    "feedId": "F-1790",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "webhook",
+    "amount": 48209.49,
+    "status": "settled",
+    "eventTime": "2026-07-04T20:10:00Z"
+  },
+  {
+    "feedId": "F-1791",
+    "sourceSystem": "regulatory-in",
+    "region": "APAC",
+    "channel": "wire",
+    "amount": 58499.81,
+    "status": "settled",
+    "eventTime": "2026-07-04T20:17:00Z"
+  },
+  {
+    "feedId": "F-1792",
+    "sourceSystem": "ledger-erp",
+    "region": "APAC",
+    "channel": "ach",
+    "amount": 72434.7,
+    "status": "settled",
+    "eventTime": "2026-07-04T20:24:00Z"
+  },
+  {
+    "feedId": "F-1793",
+    "sourceSystem": "regulatory-in",
+    "region": "EU",
+    "channel": "wire",
+    "amount": 34744.86,
+    "status": "failed",
+    "eventTime": "2026-07-04T20:31:00Z"
+  },
+  {
+    "feedId": "F-1794",
+    "sourceSystem": "crm-sync",
+    "region": "EU",
+    "channel": "ach",
+    "amount": 5644.93,
+    "status": "failed",
+    "eventTime": "2026-07-04T20:38:00Z"
+  },
+  {
+    "feedId": "F-1795",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "ach",
+    "amount": 36356.54,
+    "status": "settled",
+    "eventTime": "2026-07-04T20:45:00Z"
+  },
+  {
+    "feedId": "F-1796",
+    "sourceSystem": "crm-sync",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 79828.35,
+    "status": "settled",
+    "eventTime": "2026-07-04T20:52:00Z"
+  },
+  {
+    "feedId": "F-1797",
+    "sourceSystem": "crm-sync",
+    "region": "AMER",
+    "channel": "ach",
+    "amount": 44101.76,
+    "status": "retrying",
+    "eventTime": "2026-07-04T20:59:00Z"
+  },
+  {
+    "feedId": "F-1798",
+    "sourceSystem": "payments-core",
+    "region": "LATAM",
+    "channel": "webhook",
+    "amount": 65044.46,
+    "status": "settled",
+    "eventTime": "2026-07-04T21:06:00Z"
+  },
+  {
+    "feedId": "F-1799",
+    "sourceSystem": "crm-sync",
+    "region": "APAC",
+    "channel": "api",
+    "amount": 39227.98,
+    "status": "settled",
+    "eventTime": "2026-07-04T21:13:00Z"
+  },
+  {
+    "feedId": "F-1800",
+    "sourceSystem": "payments-core",
+    "region": "EU",
+    "channel": "file",
+    "amount": 70545.2,
+    "status": "settled",
+    "eventTime": "2026-07-04T21:20:00Z"
   }
 ]

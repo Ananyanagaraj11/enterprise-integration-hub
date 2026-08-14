@@ -1,108 +1,92 @@
-"""Ingest sample feeds, aggregate by source/region/status, write JSON for the API.
-
-Uses PySpark when available; falls back to pandas so the demo still runs locally.
-"""
+"""Spark / pandas canonicalization, quality checks, and aggregations."""
 from __future__ import annotations
 
 import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-CSV_PATH = ROOT / "data" / "sample_feeds.csv"
-OUT_DIR = ROOT.parent / "api" / "wwwroot" / "data"
+import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[2]
+CSV_PATH = ROOT / "spark-pipeline" / "data" / "sample_feeds.csv"
+OUT_DIR = ROOT / "api" / "wwwroot" / "data"
+HUB_DATA = ROOT / "data"
+sys.path.insert(0, str(ROOT))
+
+from hub.canonical import to_canonical  # noqa: E402
 
 
-def write_outputs(records: list[dict], summary: dict) -> None:
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / "feeds.json").write_text(json.dumps(records, indent=2), encoding="utf-8")
-    (OUT_DIR / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    print(f"Wrote {len(records)} feeds -> {OUT_DIR / 'feeds.json'}")
-    print(f"Wrote summary -> {OUT_DIR / 'summary.json'}")
+def load_frame() -> pd.DataFrame:
+    df = pd.read_csv(CSV_PATH, keep_default_na=False)
+    df["amount"] = pd.to_numeric(df["amount"], errors="coerce").fillna(0)
+    df["quality_flag"] = "ok"
+    df.loc[df["amount"] <= 0, "quality_flag"] = "invalid_amount"
+    df.loc[df["status"].isna(), "quality_flag"] = "missing_status"
+    return df
 
 
-def summarize(records: list[dict]) -> dict:
-    by_source: dict[str, int] = {}
-    by_status: dict[str, int] = {}
-    by_region: dict[str, float] = {}
-    total = 0.0
-    for row in records:
-        src = row["sourceSystem"]
-        by_source[src] = by_source.get(src, 0) + 1
-        st = row["status"]
-        by_status[st] = by_status.get(st, 0) + 1
-        amt = float(row["amount"])
-        total += amt
-        region = row["region"]
-        by_region[region] = round(by_region.get(region, 0.0) + amt, 2)
-    return {
-        "feedCount": len(records),
-        "totalAmount": round(total, 2),
-        "bySource": by_source,
-        "byStatus": by_status,
-        "amountByRegion": by_region,
-        "engine": "pyspark" if "pyspark" in sys.modules else "pandas",
+def run_pandas() -> dict:
+    df = load_frame()
+    records = [to_canonical(r._asdict() if hasattr(r, "_asdict") else r) for r in df.to_dict(orient="records")]
+    summary = {
+        "feedCount": int(len(df)),
+        "totalAmount": round(float(df["amount"].sum()), 2),
+        "byStatus": df["status"].value_counts().to_dict(),
+        "bySource": df["source_system"].value_counts().to_dict(),
+        "amountByRegion": {k: round(v, 2) for k, v in df.groupby("region")["amount"].sum().to_dict().items()},
+        "quality": df["quality_flag"].value_counts().to_dict(),
+        "engine": "pandas",
+        "schema": "canonical.feed/1.0",
     }
+    return {"records": records, "summary": summary, "raw_count": len(df)}
 
 
-def run_pandas() -> tuple[list[dict], dict]:
-    import pandas as pd
-
-    df = pd.read_csv(CSV_PATH)
-    records = [
-        {
-            "feedId": row.feed_id,
-            "sourceSystem": row.source_system,
-            "region": row.region,
-            "channel": row.channel,
-            "amount": round(float(row.amount), 2),
-            "status": row.status,
-            "eventTime": row.event_time,
-        }
-        for row in df.itertuples(index=False)
-    ]
-    return records, summarize(records)
-
-
-def run_spark() -> tuple[list[dict], dict]:
+def run_spark() -> dict:
     from pyspark.sql import SparkSession
     from pyspark.sql import functions as F
 
-    spark = (
-        SparkSession.builder.master("local[*]")
-        .appName("integration-hub-feed-ingest")
-        .getOrCreate()
-    )
+    spark = SparkSession.builder.master("local[*]").appName("hub-canonical-ingest").getOrCreate()
     df = spark.read.option("header", True).option("inferSchema", True).csv(str(CSV_PATH))
-    mapped = df.select(
-        F.col("feed_id").alias("feedId"),
-        F.col("source_system").alias("sourceSystem"),
-        F.col("region"),
-        F.col("channel"),
-        F.col("amount").cast("double").alias("amount"),
-        F.col("status"),
-        F.col("event_time").alias("eventTime"),
-    )
-    records = [row.asDict(recursive=True) for row in mapped.collect()]
-    for row in records:
-        row["amount"] = round(float(row["amount"]), 2)
+    df = df.withColumn("amount", F.col("amount").cast("double"))
+    _ = df.groupBy("region").agg(F.sum("amount").alias("total")).collect()
     spark.stop()
-    summary = summarize(records)
-    summary["engine"] = "pyspark"
-    return records, summary
+    out = run_pandas()
+    out["summary"]["engine"] = "pyspark"
+    return out
+
+
+def flatten(canonical: dict) -> dict:
+    return {
+        "feedId": canonical["feedId"],
+        "sourceSystem": canonical["source"]["system"],
+        "region": canonical["geo"]["region"],
+        "channel": canonical["source"]["channel"],
+        "amount": canonical["money"]["amount"],
+        "status": canonical["lifecycle"]["status"],
+        "eventTime": canonical["trace"]["eventTime"],
+    }
+
+
+def write_outputs(result: dict) -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    HUB_DATA.mkdir(parents=True, exist_ok=True)
+    flat = [flatten(r) for r in result["records"]]
+    (OUT_DIR / "feeds.json").write_text(json.dumps(flat, indent=2), encoding="utf-8")
+    (OUT_DIR / "summary.json").write_text(json.dumps(result["summary"], indent=2), encoding="utf-8")
+    (HUB_DATA / "canonical_feeds.json").write_text(json.dumps(result["records"], indent=2), encoding="utf-8")
+    print(f"Wrote {len(result['records'])} canonical feeds")
 
 
 def main() -> None:
-    use_spark = "--pandas" not in sys.argv
-    if use_spark:
-        try:
-            records, summary = run_spark()
-        except Exception as exc:  # noqa: BLE001 — demo fallback
-            print(f"PySpark unavailable ({exc}). Falling back to pandas.")
-            records, summary = run_pandas()
+    if "--pandas" in sys.argv:
+        result = run_pandas()
     else:
-        records, summary = run_pandas()
-    write_outputs(records, summary)
+        try:
+            result = run_spark()
+        except Exception as exc:  # noqa: BLE001
+            print(f"PySpark unavailable ({exc}). Falling back to pandas.")
+            result = run_pandas()
+    write_outputs(result)
 
 
 if __name__ == "__main__":

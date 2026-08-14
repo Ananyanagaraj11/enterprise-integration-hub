@@ -26,6 +26,22 @@ app.MapGet("/health", () => Results.Ok(new
     stack = "ASP.NET Core 8"
 }));
 
+app.MapGet("/metrics", () =>
+{
+    var feeds = ReadFeeds(dataDir);
+    var body = $"hub_dotnet_feeds_total {feeds.Count}\n";
+    return Results.Text(body, "text/plain");
+});
+
+app.MapPost("/system/v1/feeds", (FeedRecord incoming) =>
+{
+    var feeds = ReadFeeds(dataDir);
+    feeds.Add(incoming);
+    var path = Path.Combine(dataDir, "feeds.json");
+    File.WriteAllText(path, JsonSerializer.Serialize(feeds, new JsonSerializerOptions { WriteIndented = true, PropertyNamingPolicy = JsonNamingPolicy.CamelCase }));
+    return Results.Created($"/api/feeds/{incoming.FeedId}", incoming);
+});
+
 app.MapGet("/api/feeds", (string? status, string? source) =>
 {
     var feeds = ReadFeeds(dataDir);

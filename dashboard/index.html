@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enterprise Integration Hub</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <p class="eyebrow">System · Process · Experience APIs</p>
+        <h1>Enterprise Integration Hub</h1>
+        <p class="lede">
+          JWT-secured JavaScript console over an API gateway, saga orchestration,
+          event bus / DLQ, Spark canonicalization, and webhook ingest.
+        </p>
+      </div>
+      <form id="loginForm" class="login">
+        <input id="user" value="ananya" />
+        <input id="pass" type="password" value="hub-demo" />
+        <button type="submit">Get JWT</button>
+      </form>
+    </header>
+    <nav>
+      <button data-tab="overview" class="active">Overview</button>
+      <button data-tab="feeds">Feeds</button>
+      <button data-tab="sagas">Sagas</button>
+      <button data-tab="dlq">DLQ</button>
+      <button data-tab="health">Health</button>
+    </nav>
+    <p id="statusMsg"></p>
+    <section id="overview" class="tab"></section>
+    <section id="feeds" class="tab hidden">
+      <div class="toolbar">
+        <select id="statusFilter">
+          <option value="">All statuses</option>
+          <option>settled</option>
+          <option>pending</option>
+          <option>failed</option>
+          <option>retrying</option>
+        </select>
+        <button id="batchBtn" type="button">Run batch ingest</button>
+        <button id="drainBtn" type="button">Drain event bus</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Feed</th><th>Source</th><th>Partner</th><th>Region</th>
+              <th>Amount</th><th>Status</th><th>Time</th>
+            </tr>
+          </thead>
+          <tbody id="feedRows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section id="sagas" class="tab hidden"></section>
+    <section id="dlq" class="tab hidden"></section>
+    <section id="health" class="tab hidden"></section>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -2,56 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Integration Hub</title>
+    <title>.NET System API</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header>
-      <p class="eyebrow">ASP.NET Core · JavaScript · PySpark</p>
-      <h1>Enterprise Integration Hub</h1>
-      <p class="lede">
-        JavaScript dashboard over REST APIs that expose feed data produced by a
-        Spark ingest job.
-      </p>
-    </header>
-
+    <h1>ASP.NET Core System API</h1>
+    <p class="lede">Reads Spark canonical JSON. For JWT / sagas / webhooks use the Process API on port 8080.</p>
     <section id="kpis" class="kpis"></section>
-
-    <section class="toolbar">
-      <label>
-        Status
-        <select id="statusFilter">
-          <option value="">All</option>
-          <option value="settled">settled</option>
-          <option value="pending">pending</option>
-          <option value="failed">failed</option>
-        </select>
-      </label>
-      <button id="refreshBtn" type="button">Refresh</button>
-      <span id="statusMsg"></span>
-    </section>
-
-    <section>
-      <h2>Ingested feeds</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Feed</th>
-              <th>Source system</th>
-              <th>Region</th>
-              <th>Channel</th>
-              <th>Amount</th>
-              <th>Status</th>
-              <th>Event time</th>
-            </tr>
-          </thead>
-          <tbody id="feedRows"></tbody>
-        </table>
-      </div>
-    </section>
-
-    <script src="/app.js"></script>
+    <table><thead><tr><th>Feed</th><th>Source</th><th>Region</th><th>Amount</th><th>Status</th></tr></thead><tbody id="feedRows"></tbody></table>
+    <script src="/net-app.js"></script>
   </body>
 </html>

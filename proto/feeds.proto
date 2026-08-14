@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package hub.v1;
+
+message Feed {
+  string feed_id = 1;
+  string source_system = 2;
+  string partner = 3;
+  string region = 4;
+  string channel = 5;
+  double amount = 6;
+  string currency = 7;
+  string status = 8;
+  string event_time = 9;
+  string correlation_id = 10;
+}
+
+message IngestRequest { Feed feed = 1; string idempotency_key = 2; }
+message IngestReply { string saga_id = 1; string state = 2; }
+
+service IngestService {
+  rpc IngestFeed(IngestRequest) returns (IngestReply);
+  rpc Health(HealthRequest) returns (HealthReply);
+}
+
+message HealthRequest {}
+message HealthReply { string status = 1; }

@@ -1,0 +1,21 @@
+services:
+  hub:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      HUB_JWT_SECRET: hub-dev-secret-change-me
+    volumes:
+      - hub-data:/app/data
+  gateway:
+    build: .
+    command: ["uvicorn", "hub.gateway:app", "--host", "0.0.0.0", "--port", "8088"]
+    environment:
+      HUB_UPSTREAM: http://hub:8080
+    ports:
+      - "8088:8088"
+    depends_on:
+      - hub
+
+volumes:
+  hub-data:

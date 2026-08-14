@@ -1,21 +1,29 @@
 {
-  "feedCount": 20,
-  "totalAmount": 107384.85,
-  "bySource": {
-    "payments-core": 7,
-    "regulatory-in": 5,
-    "market-data": 4,
-    "crm-sync": 4
-  },
+  "feedCount": 800,
+  "totalAmount": 34103778.8,
   "byStatus": {
-    "settled": 13,
-    "pending": 4,
-    "failed": 3
+    "settled": 553,
+    "pending": 107,
+    "failed": 88,
+    "retrying": 52
+  },
+  "bySource": {
+    "partner-sftp": 149,
+    "crm-sync": 141,
+    "ledger-erp": 136,
+    "regulatory-in": 132,
+    "market-data": 124,
+    "payments-core": 118
   },
   "amountByRegion": {
-    "NaN": 41572.35,
-    "EU": 45877.35,
-    "APAC": 19935.15
+    "AMER": 9285769.89,
+    "APAC": 8154594.96,
+    "EU": 8377015.81,
+    "LATAM": 8286398.14
   },
-  "engine": "pandas"
+  "quality": {
+    "ok": 800
+  },
+  "engine": "pandas",
+  "schema": "canonical.feed/1.0"
 }

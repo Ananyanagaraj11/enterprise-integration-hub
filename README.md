@@ -1,55 +1,88 @@
 # Enterprise Integration Hub
 
-Personal demo that connects three pieces of an integration stack:
+**Flagship portfolio platform** for integration / backend interviews.
 
-1. **PySpark** job reads CSV feeds and writes JSON
-2. **ASP.NET Core 8** REST API serves those feeds
-3. **JavaScript** dashboard calls the API and renders KPIs / a feed table
+It is **not** Honeywell or Metasystems source code. It **is** a large, runnable system that implements the concepts companies keep putting in 2026 JDs: API-led connectivity, JWT, gateways, events, DLQ, sagas, Spark, Docker, Kubernetes, CI, and a JavaScript console.
 
-This is a **portfolio project**, not proprietary Honeywell or Metasystems code.
+[Architecture](docs/ARCHITECTURE.md) · [JD skill map](docs/JD-SKILL-MAP.md) · [Interview script](docs/INTERVIEW.md)
 
 ```mermaid
 flowchart LR
-  CSV[sample_feeds.csv] --> Spark[PySpark ingest]
-  Spark --> JSON[feeds.json / summary.json]
-  JSON --> API[ASP.NET Core API]
-  API --> JS[JavaScript dashboard]
+  JS[JavaScript dashboard]
+  GW[API gateway]
+  SYS[System API]
+  PROC[Process API]
+  SPARK[PySpark canonicalizer]
+  BUS[Event bus + DLQ]
+  DB[(Feeds / outbox / sagas)]
+
+  JS --> GW --> SYS --> BUS
+  GW --> PROC --> DB
+  SPARK --> PROC
+  BUS --> PROC
 ```
 
-## API
+## What recruiters can click
 
-| Method | Path | Description |
+| Surface | What you get |
+|:--|:--|
+| 800-row partner feed CSV | Multi-system, multi-region, multi-channel |
+| System / Process / Experience APIs | MuleSoft-style API-led layout |
+| JWT + API keys + rate limits | Auth story for gateway roles |
+| Sagas + compensation + circuit breaker | Distributed workflow story |
+| File event bus with inbox + DLQ | Kafka-shaped design that runs without a cluster |
+| PySpark / pandas jobs + quality gates | Data engineering story |
+| ASP.NET Core 8 ingest API | C# / .NET story |
+| Docker Compose + Kubernetes YAML + Terraform notes | Cloud-native story |
+| pytest + GitHub Actions | CI story |
+| JavaScript ops console | Frontend / Experience API story |
+
+## Quick start
+
+```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python spark-pipeline/jobs/quality_checks.py
+python spark-pipeline/jobs/ingest_feeds.py --pandas
+pytest -q
+uvicorn hub.app:app --port 8080
+```
+
+Open http://127.0.0.1:8080 — login `ananya` / `hub-demo`.
+
+Click **Run batch ingest** to load all 800 canonical feeds.
+
+```bash
+# C# system API
+cd api && dotnet run   # http://localhost:5080
+
+# Gateway in front of process API
+uvicorn hub.gateway:app --port 8088
+```
+
+```bash
+docker compose up --build
+```
+
+## API map
+
+| Method | Path | Layer |
 |:--|:--|:--|
-| GET | `/health` | Service heartbeat |
-| GET | `/api/feeds` | All feeds (`?status=` and `?source=` filters) |
-| GET | `/api/feeds/{feedId}` | One feed |
-| GET | `/api/summary` | Aggregates from the Spark job |
-| GET | `/` | JavaScript dashboard |
-
-## Run
-
-```bash
-# 1) Produce API payloads (PySpark if installed, otherwise pandas)
-cd spark-pipeline
-python jobs/ingest_feeds.py
-
-# 2) Serve API + dashboard
-cd ../api
-dotnet run
-```
-
-Open [http://localhost:5080](http://localhost:5080).
-
-Force pandas:
-
-```bash
-python jobs/ingest_feeds.py --pandas
-```
+| POST | `/auth/login` | Auth |
+| POST | `/system/v1/feeds` | System — idempotent ingest + saga |
+| POST | `/process/v1/feeds/batch` | Process — canonical bulk load |
+| POST | `/process/v1/webhooks` | Process — partner webhooks |
+| POST | `/process/v1/events/drain` | Process — consume bus / DLQ |
+| GET | `/experience/v1/feeds` | Experience |
+| GET | `/experience/v1/summary` | Experience |
+| GET | `/experience/v1/graphql?query=feeds` | Experience |
+| GET | `/health` `/metrics` `/docs` | Ops |
 
 ## Stack
 
-`C#` `.NET 8` `ASP.NET Core` `JavaScript` `PySpark` `pandas` `REST`
+`Python` `FastAPI` `C#` `.NET 8` `JavaScript` `PySpark` `pandas` `SQLite` `JWT` `Docker` `Kubernetes` `GitHub Actions` `OpenAPI` `gRPC proto` `Terraform`
 
-## Notes for interviews
+## Honest scope
 
-Walk through the path: CSV → Spark aggregates → JSON contract → .NET endpoints → `fetch()` in `wwwroot/app.js`. The sample dataset is synthetic.
+Designed around production **patterns**. The sample is 800 synthetic rows on SQLite + a file bus. In an interview, map FileBus → Kafka, SQLite → Postgres, this gateway → Kong/APIM.
